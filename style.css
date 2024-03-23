@@ -584,7 +584,12 @@ form{
 .background button a{
     color: var(--text-color);
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
+}
+.background .bg-btn:hover,
+.background #showlogin:hover{
+    background-color: var(--nav-color);
+    color: var(--text-color);
 }
 .background .login button{
     text-align: center;
@@ -597,9 +602,9 @@ form{
 .background .login #showlogin{
     color: var(--text-color);
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
-    padding: 5px 5px;
+    padding: 5px;
 }
 .background button .bg-btn a,
 .background .login #showlogin{
@@ -1277,8 +1282,8 @@ textarea.input{
     width: 400px;
     border-radius: 15px;
 }
-
 /* === end reviews === */
+
 /* === privacy policy page style === */
 .privacy-policy{
     margin-left: 50px;
@@ -1324,8 +1329,8 @@ textarea.input{
     font-size: 30px;
     margin: 0 60px;
 }
-
 /* === end privacy policy page style === */
+
 /* === cookie-p === */
 .cookie-pre{
     margin-top: 150px; 
