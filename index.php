@@ -88,7 +88,7 @@
 </div>
 <!-- on backgroung image -->
 <div class="background">
-    <button class = "bg-btn"><a href="SignUp.php">Create New Account</a></button>
+    <button class = "bg-btn"><a href="SignUp.php">Create Account</a></button>
     <div class = "login">
         <button id = "showlogin">Log in</button>
     </div> 
