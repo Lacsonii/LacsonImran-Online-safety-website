@@ -5,7 +5,7 @@
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <title>Sign Up</title>
+    <title>Create Account | SMC</title>
     <link href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -15,11 +15,11 @@
 <nav>
     <div class="nav-bar">
         <i class='bx bx-menu sidebarOpen'></i> 
-        <span class ="logo navLogo"><a href ="#">TechCheck</a></span>
+        <span class ="logo navLogo"><a href ="#">SMC</a></span>
 
         <div class = "menu-links">
                 <div class ="logo-toggle">
-                    <span class ="logo"><a href ="#">TechCheck</a></span>
+                    <span class ="logo"><a href ="#">SMC</a></span>
                     <i class='bx bx-x sidebarClose'></i>
                 </div>
 
@@ -58,6 +58,7 @@
     <form action="register.php" method="POST" onsubmit="return validateForm()" class = "form">
       <div class="form-reg">  
         <h1 class="header">Sign Up</h1>
+        <p class="question">Already have SMC Account?&nbsp;<a href="">Sign In</a></p>
         <label class="label">First Name:</label>
         <input type="text" placeholder="First Name" name="FirstName" id = "textbox" required>
 
@@ -306,35 +307,22 @@
         <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword"  required>
         <div class = "password"><input type="checkbox" onclick="myFunction()"> Show Password</div>
 
-        <div class = "buttonRS">
-        <div class = "btnS"><input type="submit" value="Submit"></div>
-        <div class = "btnR"><input type="reset" value="Reset" class = "button"></div>
+        <div class = "buttonCreate">
+        <div class = "btnCreate"><input type="submit" value="Create Account"></div>
       </div>
-     <script src ="script.js"></script>
+      <div class="signup-declare">
+        <p>By clicking on the "Create Account" button below, you understand and agree that the<br>
+           use of SMC's web site is subject to the smc.com Terms of Use. Additional details<br> 
+           regarding SMC’s collection and use of your personal information, including<br> 
+           information about access, retention, rectification, deletion, security, cross-border<br>
+           transfers and other topics, is available in the Oracle Privacy Policy.<br></p>
+      </div>
+      <div class="signup-links">
+        <a href="">Account Help</a>&nbsp;|&nbsp;<a href="Subscribe.php">Subscriptions</a>&nbsp;|&nbsp;<a href="">Unsubscribe</a>&nbsp;|&nbsp;<a href="">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
+      </div>
     </form>
   </div>
-
-    <form class = "ads-form"> 
-    <div class = "ads">
-      <div class = "req-msg">
-        <p>Visit our most responsive</br> Social Medial platforms.</p>
-            <a href = ""><i class="fa-brands fa-facebook-f"></i></a>
-            <a href = ""><i class="fa-brands fa-instagram"></i></a>
-            <a href = ""><i class="fa-brands fa-x-twitter"></i></a>
-      </div>
-      <div class = "message">
-        <p>Message</p>
-        <a href = ""><i class="fa-solid fa-envelope"></i></a>
-        <a href = ""><i class="fa-brands fa-whatsapp"></i></a>
-      </div>
-      <div class = "req-subscribe">
-        <p>Subscribe for monthly Newsletter</p>
-        <input type = "text" placeholder= "techcheck@gmail...">
-        <button class = "subscribe-btn" class = "subscribe-btn">Subscribe</button>
-      </div>
-    </div>
-</form>
-
+<script src ="script.js"></script>
 </body>
 </html>
 
