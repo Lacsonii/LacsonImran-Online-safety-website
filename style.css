@@ -350,37 +350,43 @@ body.dark .search-field i{
 /* === end logIn pop-up styling === */ 
 
 /* === SignUp form styling === */
-
 .SignUp-form{
-    display:contents;
-    position: fixed;
+    height: 500px;
+}
+form{
     font-size: 10px;
     font-weight: 600;
-    top: 50px;
-    height: 100%;
-    width: 100%;
+    width: 80%;
+    background-color: var(--contactform-color);
     color: var(--text-color);
-    justify-content: center;
-    overflow: scroll;
     text-align: center;
+    border: none;
+    border-radius: 15px;
+    margin: 10% 10% 5% 10%;
+    float:inline-start;
 }
 .SignUp-form h1{
-    text-align:left;
-    margin: 0px 0px 0px 150px;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    display: flex;
+    margin: 30px 0px 10px 100px;
     font-size: 35px;
-    color: var(--labl-color);
-    font-weight: 600;
+    color: var(--text-color);
+    font-weight: 700;
+}
+.form-reg .question{
+    display: flex;
+    margin: 0px 0px 30px 100px; 
+}
+.form-reg .question a{
+    text-decoration: none;
+    color: blue;
 }
 .form .form-reg {
     font-size: 15px;
 }
 .form .form-reg .label{
-    margin: 0px 0px 0px 150px;
-    margin-top: 5px;
+    margin: 5px 0px 0px 100px;
     display: flex;
-    color: var(--labl-color);
+    color: var(--text-color);
     font-weight: 600;
 }
 .SignUp-form .form input[type = "text"],
@@ -390,38 +396,29 @@ body.dark .search-field i{
 .SignUp-form .form select[name = "Country"],
 .SignUp-form .form select[name = "IDType"]
 {
-    margin: 0px 0px 0px 150px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin: 5px 0px 20px 100px;
     display: flex;
-    width: 40%;
-    padding: 10px;
+    width: 55%;
+    padding: 8px;
     outline: none;
-    border: 2px solid var(--Inputpopup-color);
+    border: none;
     border-radius: 5px;
 }
 
 .dob{
     padding: 0px;
-    margin:  0px 250px;
-    margin-top: -19px;
-    margin-bottom: 20px;
+    margin:  -19px 0px 20px 250px;
     display: flex;
 }
 .password{
-    margin:  0px 626px;
-    margin-top: -20px;
-    margin-bottom: 20px;
+    margin: -20px 0px 20px 580px;
     display: flex;
-    color: var(--labl-color);
+    color: var(--text-color);
     font-weight: 600;
     font-size: 15px;
 }
 .passwordcheck{
-    text-align: left;
-    margin: 0px 0px 0px 150px;
-    margin-top: -33px;
-    margin-bottom: 20px;
+    margin: -33px 0px 20px 100px;
     display: flex;
     font-style: italic;
     font-size: 12px;
@@ -430,83 +427,139 @@ body.dark .search-field i{
 
 .password input[type = "checkbox"]{
     margin-right: 5px;
-}
+    cursor: pointer;
+} /*check box spacing */
 
-.buttonRS .btnS{
+
+.buttonCreate .btnCreate{
     display: flex;
     padding: 10px;
     font-weight: 600;
 }
 
-.buttonRS input{
-    display: flex;
-    margin: 0px 0px 0px 400px;
-    width: 10%;
-    background: var(--nav-color);
+.buttonCreate input{
+    margin: 0px 0px 0px 100px;
+    width: 20%;
+    background: var(--popup-color);
     color: var(--text-color);
     font-size: 18px;
-    font-weight: 600;
-    padding: 10px;
-    border-radius: 15px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
     cursor: pointer;
 }
-.btnR .button{
-    margin: -52.8px 0px 150px 570px;
+.btnCreate input:hover{
+    background-color: rgba(192, 7, 7, 0.815);
 }
-
-/* === viisit our platforms === */
-.ads-form{
+.signup-declare{
+    color: var(--black-color);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 350;
+    letter-spacing: 0.5px;
+    margin: 15px 0px 50px 100px;
+}
+.signup-links a{
+    text-decoration: none;
+    color: blue;
+}
+.signup-links a:hover{
+    text-decoration: underline 2px solid blue;
+}
+/* === Subscribe page === */
+.subscribe{
     display: block;
-    top: 50%;
-    border-radius: 10px;
+    width: 50%;
+    height: 600px;
+    border-radius: 15px;
+    margin: 10% 0 5% 25%;
+    padding: 0px;
+    background-color: rgb(221, 210, 210);
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.subscribe .sub{
+    background-color: var(--contactform-color);
+    height: 170px;
+    width: 100%;
+}
+.sub img{
+    padding: 2px 0px 2px 0px;
+    height: 100px;
+    width: 100px; 
+    color: var(--text-color);
+}
+.sub p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.subscribe-security{
+    color: var(--black-color);
+    margin: 30px 0px 0px 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.subscribe-security input{
+    width: 32%;
+    outline: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 5px;
+    height: 30px;
+}
+.subscribe-security button{
+    margin: 20px 0px 0px 0px;
     background-color: var(--nav-color);
     color: var(--text-color);
-    width: 25%;
-    height: 55vh;
-    margin: 0px 0px 80px 1000px;
-    margin-top: -1000px;
-    padding: 25px;
-    
-}
-.ads-form .ads{
-    text-align: center;
-}
-
-.ads-form .req-msg{
-    padding: 5px;
-    font-size: 25px;
-}
-.ads-form .req-msg i{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
     cursor: pointer;
-    padding:  20px 3px;
-    color: var(--text-color);
-}
-.message{
-    font-size: 20px;
-}
-.ads-form .message i{
-    padding:  20px 3px;
-    cursor: pointer;
-    color: var(--text-color);
-}
-.ads-form .req-subscribe{
-    padding: 5px;
-    font-size: 25px;
-}
-.ads-form .req-subscribe input[type = "text"]{
-    padding: 8px;
-    border-radius: 0px 7px 0px 7px;
-}
-.ads-form .req-subscribe .subscribe-btn{
-    border-radius: 5px;
-    padding: 3px;
-    color: var(--body-color);
     font-size: 15px;
-    font-weight: 600;
-    background-color: var(--subscribe-color);
-    cursor: pointer;
 }
-/* === end viisit our platforms === */
+.subscribe-security button:hover{
+    background-color: var(--contactform-color);
+}
+.subscribe-footer{
+    display: flex;
+    height: 215px;
+    margin: 30px 0px 0px 0px;
+    background-color: var(--nav-color);
+}
+.subscribe-footer .smc{
+    margin: 65px 0px 0px 150px;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+.line{
+    border-left: 2px solid var(--text-color);
+    height: 70px;
+    margin: 50px 5px 0px 30px;
+    padding-left: 10px;
+}
+.line .line-paaragraph{
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.subscribe-links{
+    margin: 150px 0px 20px -230px;
+    font-size: 15px;
+}
+.subscribe-links a:hover{
+    text-decoration: underline 1px solid var(--labl-color);
+}
+.subscribe-links a{
+    text-decoration: none;
+    color: var(--labl-color);
+    font-weight: lighter;
+}
+/* === end Subscribe page === */
 
 /* === index styling === */
 /* --- 3D illustrations style --- */
