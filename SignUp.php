@@ -31,6 +31,7 @@
                 <li><a href = "LegAndGuid.php">Guidlines</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
+                <li><a href = "review.php">Reviews</a></li>
             </ul> 
         </div>
 
