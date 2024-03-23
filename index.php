@@ -89,7 +89,7 @@
 <!-- on backgroung image -->
 <div class="background">
     <button class = "bg-btn"><a href="SignUp.php">Create Account</a></button>
-    <div class = "login">
+        <div class = "login">
         <button id = "showlogin">Log in</button>
     </div> 
 </div>
