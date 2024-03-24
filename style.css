@@ -340,12 +340,27 @@ body.dark .search-field i{
     cursor: pointer;
     font-weight: 600;
 }
+.popup .form .form-element button:hover{
+    background-color: lightblue;
+    color: var(--black-color);
+}
 .popup .form .form-element a{
     display: block;
     text-align: right;
     font-size: 15px;
     color: var(--labl-color);
     text-decoration: none;
+}
+.popup .login-links{
+    text-align: center;
+}
+.popup .login-links a{
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--text-color);
+}
+.popup .login-links a:hover{
+    text-decoration: underline var(--text-color);
 }
 /* === end logIn pop-up styling === */ 
 
