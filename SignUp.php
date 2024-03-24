@@ -319,7 +319,7 @@
            transfers and other topics, is available in the Oracle Privacy Policy.<br></p>
       </div>
       <div class="signup-links">
-        <a href="">Account Help</a>&nbsp;|&nbsp;<a href="Subscribe.php">Subscriptions</a>&nbsp;|&nbsp;<a href="">Unsubscribe</a>&nbsp;|&nbsp;<a href="">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
+        <a href="">Account Help</a>&nbsp;|&nbsp;<a href="Subscribe.php">Subscriptions</a>&nbsp;|&nbsp;<a href="">Unsubscribe</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
       </div>
     </form>
   </div>
