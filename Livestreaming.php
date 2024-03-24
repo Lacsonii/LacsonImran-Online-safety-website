@@ -79,16 +79,16 @@
     <h1 id = "section-1">What Is streaming?</h1>
     <img src ="images/streaming.png" alt ="LiveStreamImage"  class = "LiveStreamImage"><br>
     <p>
-        Streaming is the continuous transmission of audio or video files from a server to a client.<br> 
-        In simpler terms, streaming is what happens when consumers watch TV or listen to podcasts<br> 
-        on Internet-connected devices. With streaming, the media file being played on the client device<br>
+        <a href ="#section-1">Streaming</a> is the continuous transmission of audio or video files from a server to a client.<br> 
+        In simpler terms, <a href ="#section-1">streaming</a> is what happens when consumers watch TV or listen to podcasts<br> 
+        on Internet-connected devices. With <a href ="#section-1">streaming</a>, the media file being played on the client device<br>
         is stored remotely, and is transmitted a few seconds at a time over the Internet.<br>
     </p>
         <h1>What is the difference between streaming and downloading?</h1><br>
     <p>
-        Streaming media involves playing video or audio content in real-time without saving a complete <br>
+        <a href ="#section-1">Streaming</a> media involves playing video or audio content in real-time without saving a complete <br>
         copy onto a device's hard drive. Unlike downloading, where the entire file is stored locally <br>
-        before playback, streaming delivers content in small increments, allowing immediate playback without<br>
+        before playback, <a href ="#section-1">streaming</a> delivers content in small increments, allowing immediate playback without<br>
         saving data locally. This approach is likened to a stream, where data flows continuously to the user's<br>
         browser, contrasting with downloading, which is akin to storing a lake of data on a device's hard drive.<br>
     </p>
@@ -101,7 +101,7 @@
         <h1>What is buffering?</h1>
         <img src ="images/buffering.png" alt ="LiveStreamImage"><br>
     <p>
-        Streaming media players use buffering to preload a few seconds of content, ensuring smooth playback even if<br> 
+        <a href ="#section-1">Streaming</a> media players use buffering to preload a few seconds of content, ensuring smooth playback even if<br> 
         the connection briefly drops. However, slow connections or high latency can lead to longer buffering times,<br> 
         causing delays in video playback.<br>
     </p>
@@ -119,19 +119,19 @@
         <li>WiFi problems: Restarting the LAN router, or switching to Ethernet instead of WiFi,<br> 
         can help improve streaming performance.</li><br>
         <li>Slowly performing client devices: To play videos takes a good amount of processing power.<br> 
-        If the device streaming the video has a lot of other processes running or is just slow in general,<br>
-        streaming performance can be impacted.</li><br>
+        If the device <a href ="#section-1">streaming</a> the video has a lot of other processes running or is just slow in general,<br>
+        <a href ="#section-1">Streaming</a> performance can be impacted.</li><br>
         <li>Not enough bandwidth: For streaming video, home networks need about 4 Mbps of bandwidth;<br> 
         for high-definition video, they will likely need more.</li><br>
         </ul>
     </p>
         <h1>How can streaming be made faster?</h1>
     <p>
-        Streaming, like other web content, can suffer from delays and performance issues. The location<br>  
+    <a href ="#section-1">Streaming</a>, like other web content, can suffer from delays and performance issues. The location<br>  
         of the content's host is crucial; for instance, if a user in New York streams from a server in Los<br>  
         Gatos, a distance of 3,000 miles, buffering or playback failures may occur. To address this, streaming<br>  
         providers like Netflix rely on distributed content delivery networks (CDNs) <br> 
-        to store content closer to users globally, ensuring smoother and more reliable streaming experiences.<br> 
+        to store content closer to users globally, ensuring smoother and more reliable <a href ="#section-1">streaming</a> experiences.<br> 
     </p>
 
     <h1 id = "section-2">What Is Live streaming?</h1>
@@ -142,11 +142,11 @@
         start without downloading the entire file first.<br>
     </p>
     <p>
-        Live streaming involves transmitting video over the internet in real-time, without prior recording or storage. <br>
+        Live <a href ="#section-1">Streaming</a> involves transmitting video over the internet in real-time, without prior recording or storage. <br>
         It encompasses various forms such as TV broadcasts, video game streams, and social media videos.<br>
     </p>
     <p>
-        Live streaming refers to one-to-many broadcasts that transmit video in real-time to multiple users simultaneously.<br> 
+        Live <a href ="#section-1">Streaming</a> refers to one-to-many broadcasts that transmit video in real-time to multiple users simultaneously.<br> 
         This differs from video conferencing technologies like Skype or FaceTime, which operate on real-time communication <br>
         protocols distinct from live streaming.<br>
     </p>
