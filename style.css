@@ -139,6 +139,7 @@ nav .nav-bar .sidebarOpen{
     text-decoration: underline 2px solid var(--labl-color);
     bottom: 4px;
 }
+
 .nav-bar .darklight-searchBox{
     display: flex; /*keeping objects in same line*/
     align-items: center;
@@ -823,20 +824,45 @@ form{
     margin-top: 70px;
     padding: 50px;
 }
-.legAndguid .guide-p{
-    font-size: 20px;
+.legAndguid .guide{
+    font-size: 23px;
+    margin: 0px 0px 5px 30px;
 }
+.legNg .legNg-p1 p{
+    font-size: 18px;
+}
+.legAndguid .guide u{
+    color: blue;
+}
+.legAndguid .guide a{
+    text-decoration: none;
+}.legAndguid .guide-p a:hover{
+    text-decoration: underline blue;
+}
+
 .legAndguid{
     margin-top: 10px;
     margin-left: 60px;
 }
 .legAndguid h1{
     padding-bottom: 2px;
+    margin: 30px 0px 5px 30px;
     font-size: 30px;
+    color: var(--contactform-color);
 }
 .legAndguid ul li{
     margin-left: 50px;
     font-size: 20px;
+}
+.legAndguid ul li::marker{
+    color:  rgb(245, 83, 24);
+}
+.legAndguid ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.legAndguid ul li a:hover{
+    text-decoration: underline blue;
 }
 .guid-btn{
     margin-left: 50%;
