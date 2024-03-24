@@ -77,7 +77,7 @@
 <hr> </br>
 <div class="overview-site">
     <h1 id = "section-1">What Is streaming</h1>
-    <img src ="images/whatIsImage.png" alt ="LiveStreamImage">
+    <img src ="images/streaming.png" alt ="LiveStreamImage"  class = "LiveStreamImage">
     <h1 id = "section-2">What Is Live streaming</h1>
     <img src ="images/whatIsImage.png" alt ="LiveStreamImage">
     <h1 id = "section-3">How does live streaming works</h1>
