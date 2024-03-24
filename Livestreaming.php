@@ -57,37 +57,6 @@
     </div> 
 </nav>
 <!-- === end navigation-bar text === --> 
-<!-- === Login pop-up text === -->
- 
-<div class = "popup">
-    <div class = "close-btn">&times;</div>
-    <div class = "form">
-      <h2>Log In</h2>
-        <div class = "form-element">
-            <lable for = "Username">Username</lable>
-            <input type = "text" id = "email" placeholder = "username or email">
-        </div>
-
-        <div class = "form-element">
-            <lable for = "password">Password</lable>
-            <input type = "password" id = "password" placeholder = "password">
-            <input type="checkbox" onclick="Function()">Show Password
-        </div>
-
-        <div class = "form-element">
-            <input type = "checkbox" id = "remember.me">
-            <lable for = "remember-me">Remember Me</lable>
-        </div>
-        <div class = "form-element">
-            <button type = "submit" class = "btn">Sign In</button></br></br>
-            <a href = "SignUp.php"><button>Sign Up</button></a>
-        </div>
-        <div class = "form-element">
-            <a href = "#">Forgot password?</a>
-        </div>
-    </div>
-</div>
-<!-- === end Login pop-up text === -->
 
 <div class="live-stream">
     <h1>What is live streaming?&nbsp;|&nbsp;</br>How live streaming can be done in safe environment</h1>
@@ -99,18 +68,21 @@
 <div class="streaming-topics">
     <h1>An overview&nbsp;|</h1>
     <ul>
-        <li><a href="#section-1">What is Live streaming?</a></li>
-        <li><a href="#section-2">How does live streaming works</a></li>
-        <li><a href="#section-3">Safe environment</a></li>
+        <li><a href="#section-1">What is streaming?</a></li>
+        <li><a href="#section-2">What is Live streaming?</a></li>
+        <li><a href="#section-3">How does live streaming works</a></li>
+        <li><a href="#section-4">Safe environment</a></li>
     </ul>
 </div>
 <hr> </br>
 <div class="overview-site">
-    <h1 id = "section-1">What Is Live streaming</h1>
+    <h1 id = "section-1">What Is streaming</h1>
     <img src ="images/whatIsImage.png" alt ="LiveStreamImage">
-    <h1 id = "section-2">How does live streaming works</h1>
+    <h1 id = "section-2">What Is Live streaming</h1>
+    <img src ="images/whatIsImage.png" alt ="LiveStreamImage">
+    <h1 id = "section-3">How does live streaming works</h1>
     <img src ="images/howToImage.png" alt ="LiveStreamImage" class = "LiveStreamImage">
-    <h1 id = "section-3">How can live streaming be done in safe environment</h1>
+    <h1 id = "section-4">How can live streaming be done in safe environment</h1>
     <img src ="images/How-to-Protect.png" alt ="LiveStreamImage" class = "SafeWays">
 </div>
 <footer>
