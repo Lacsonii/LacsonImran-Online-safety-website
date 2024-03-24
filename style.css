@@ -857,6 +857,56 @@ form{
     background-color: #3c9684;
 }
 
+.legNg .popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+}
+.popup .content{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: var(--nav-color);
+    width: 500px;
+    height: 240px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.popup .content h1{
+    margin-bottom: 15px;
+}
+.popup .content p{
+    font-size: 23px;
+}
+.popup .close-btn{
+    position: absolute;
+    width: 30px;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    color: var(--text-color);
+    background-color: var(--black-color);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.popup.active .overlay{
+    display: block;
+}
+.popup.active .content{
+    transition: all 0ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
 /* === End Legislation and Guideline page === */
 
 /* === information page style === */
