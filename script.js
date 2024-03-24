@@ -92,4 +92,18 @@ function Function()
       }
     } 
 
+    function togglePopup(){
+      document.getElementById("guideline-popup").classList.toggle("active");
+    }
+
+    function Legislation(){
+      document.getElementById("legislation-popup").classList.toggle("active");
+    }
+
+    function Regulations(){
+      document.getElementById("regulations-popup").classList.toggle("active");
+    }
+
+
+
     
