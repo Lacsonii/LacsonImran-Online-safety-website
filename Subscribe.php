@@ -16,12 +16,13 @@
     <div class="nav-bar">
         <i class='bx bx-menu sidebarOpen'></i> 
         <span class ="logo navLogo"><a href ="#">SMC</a></span>
-
+        
         <div class = "menu-links">
                 <div class ="logo-toggle">
-                    <span class ="logo"><a href ="#">TechCheck</a></span>
+                    <span class ="logo"><a href ="#">SMC</a></span>
                     <i class='bx bx-x sidebarClose'></i>
                 </div>
+                
         </div>
 
         <div class ="darklight-searchBox">
