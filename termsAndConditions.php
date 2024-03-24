@@ -57,7 +57,10 @@
     </div> 
 </nav>
 <!-- === end navigation-bar text === --> 
+<div class="terms-bar">
+<img src = "images/lacson.png" alt = "Lacson Image" class = "lacson">
 
+</div>
 <!-- === end Login pop-up text === -->
 <footer>
     <div class ="footer">
