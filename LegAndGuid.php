@@ -116,7 +116,7 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
 </div>
 <div class="legAndguid">
 <h1>Social Media Best Practice Guidelines</h1>
-    <p class = "guide-p">
+    <p class = "guide">
     Following best practices can help social media users espicially teenager children most</br>
     maintain a successful online presence and avoid potentially serious pitfalls. These guidelines </br>
     are an educational resource to inform how various community members use </br>
@@ -127,8 +127,8 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     First and foremost, always consider the implications of what you post and follow the</br> 
     terms of service or community guidelines of the platforms you use. If a student you</br> 
     are also expected to follow applicable university policies</br> 
-    (e.g., <a href ="#" >Code of Student Conduct,<a><a href = "#">Faculty Handbook and Staff Handbook</a>).</br></br>
-    Questions? Contact <a href = "#">techcheck.askus</a> for guidance.</br></br>
+    (e.g., <u>Code of Student Conduct,</u> <u>Faculty Handbook and Staff Handbook</u>).</br></br>
+    Questions? Contact <a href = "#">sms.askus</a> for guidance.</br></br>
     </p>
     <h1>Create a Recognizable Online Identity</h1>
     <p class = "guide-p">
