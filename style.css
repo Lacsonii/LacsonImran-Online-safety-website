@@ -756,9 +756,10 @@ form{
     width: 70%;
     height: 600px;
     margin-left: 23%;
+    padding: 20px;
 }
 .overview-site h1{
-    margin-top: 25px;
+    margin: 25px 0px 0px 0px;
     color: var(--contactform-color);
     font-size: 27px;
     text-align: center;
@@ -768,7 +769,7 @@ form{
     height: 300px;
     border-radius: 15px;
     margin-bottom: 30px;
-    margin-left: 20%;
+    margin-left: 23%;
 }
 .overview-site .LiveStreamImage{
     width: 600px;
@@ -777,6 +778,26 @@ form{
 .overview-site a{
     text-decoration: none;
     color: rgb(245, 83, 24);
+}
+.overview-site a:hover{
+    text-decoration: underline 1px solid rgb(245, 83, 24);
+}
+.overview-site p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.overview-site strong{
+    color:  rgb(245, 83, 24);
+    font-weight: 500;
+    margin-left: 100px;
+}
+.overview-site ul{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+.overview-site ul li::marker{
+    color:  rgb(245, 83, 24);
 }
 /* === End Livestreaming (Live) Page style === */
 
