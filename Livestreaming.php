@@ -119,10 +119,10 @@
         <li>WiFi problems: Restarting the LAN router, or switching to Ethernet instead of WiFi,<br> 
         can help improve streaming performance.</li><br>
         <li>Slowly performing client devices: To play videos takes a good amount of processing power.<br> 
-        If the device <a href ="#section-1">streaming</a> the video has a lot of other processes running or is just slow in general,<br>
-        <a href ="#section-1">Streaming</a> performance can be impacted.</li><br>
-        <li>Not enough bandwidth: For streaming video, home networks need about 4 Mbps of bandwidth;<br> 
-        for high-definition video, they will likely need more.</li><br>
+        If the device <a href ="#section-1">streaming</a> the video has a lot of other processes running or is just slow<br> 
+        in general, <a href ="#section-1">Streaming</a> performance can be impacted.</li><br>
+        <li>Not enough bandwidth: For streaming video, home networks need about 4 Mbps of<br> 
+        bandwidth; for high-definition video, they will likely need more.</li><br>
         </ul>
     </p>
         <h1>How can streaming be made faster?</h1>
@@ -139,16 +139,16 @@
     <p>
     <a href ="#section-1">Streaming</a> is a method of transmitting data over the internet, commonly used for<br> 
         watching videos. It delivers content gradually from a remote storage location, allowing playback to <br>
-        start without downloading the entire file first.<br>
+        start without downloading the entire file first.<br><br>
     </p>
     <p>
         Live <a href ="#section-1">Streaming</a> involves transmitting video over the internet in real-time, without prior recording or storage. <br>
-        It encompasses various forms such as TV broadcasts, video game streams, and social media videos.<br>
+        It encompasses various forms such as TV broadcasts, video game streams, and social media videos.<br><br>
     </p>
     <p>
-        Live <a href ="#section-1">Streaming</a> refers to one-to-many broadcasts that transmit video in real-time to multiple users simultaneously.<br> 
-        This differs from video conferencing technologies like Skype or FaceTime, which operate on real-time communication <br>
-        protocols distinct from live streaming.<br>
+        Live <a href ="#section-1">Streaming</a> refers to one-to-many broadcasts that transmit video in real-time to multiple<br>
+        users simultaneously. This differs from video conferencing technologies like Skype or FaceTime, which operate<br> 
+        on real-time communication protocols distinct from live streaming.<br><br>
     </p>
     <h1 id = "section-3">How does live streaming works?</h1>
     <img src ="images/howToImage.png" alt ="LiveStreamImage" class = "LiveStreamImage">
@@ -159,7 +159,7 @@
     </p>
     <h1 id = "section-4">How can live streaming be done in safe environment?</h1>
     <img src ="images/How-to-Protect.png" alt ="LiveStreamImage" class = "SafeWays">
-    <p>
+    <p> Below are the safesty way you could live streaming in a particular environment.<br><br>
         <ul>
             <li>Avoid DDos attacks</li>
             <li>Beware of privacy risks when screen sharing</li>
@@ -173,6 +173,7 @@
         </ul>
     </p>
 </div>
+
 <footer>
     <div class ="footer">
         <div class="icon">
