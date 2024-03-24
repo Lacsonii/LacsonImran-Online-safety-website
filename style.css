@@ -21,6 +21,7 @@
     --contact-form-color: #fafafa;
     --contactform-color: #1abc9c;
     --color:rgb(239, 241, 252); 
+    
 }
 
 /*website body styling*/
@@ -1531,8 +1532,28 @@ textarea.input{
 .search-question i{
     cursor: pointer;
 }
-
 /* === End FAQ === */
+
+/* === Terms and conditions === */
+.terms-bar{
+    height: 325px;
+    background-color: rgba(59, 65, 80, 0.562);
+    background-image: linear-gradient(to right, rgb(105, 198, 230), rgb(105, 198, 230), white);
+    width: 100%;
+    margin-top: 2%;
+
+}
+
+.lacson {
+    position: absolute;
+    width: 350px;
+    height: 295px;
+    margin: 2% 0% 0% 79%;
+    /* filter: blur(1px); */
+    z-index: 2;
+
+}
+/* === End Terms and conditions === */
 /* === footer style === */
 footer{
     display: flex;
