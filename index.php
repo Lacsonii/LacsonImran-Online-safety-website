@@ -85,6 +85,9 @@
             <a href = "#">Forgot password?</a>
         </div>
     </div>
+    <div class="login-links">
+        <a href="contactus.php">Contact Us</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use</a>&nbsp;|&nbsp;<a href="privacypolicy.php">Privacy policy</a>
+    </div>
 </div>
 <!-- on backgroung image -->
 <div class="background">
