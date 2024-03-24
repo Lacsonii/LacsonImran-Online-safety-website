@@ -70,6 +70,7 @@
 <div class="btn-app">
     <button>Updates</button>
     <button>Most Popular</button>
+    <button>blog Posts</button>
 </div>
 <div class="info-site">
 
