@@ -754,9 +754,9 @@ form{
     border: 1px solid var(--nav-color);
     border-radius: 15px;
     width: 70%;
-    height: 600px;
+    height: 700px;
     margin-left: 23%;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 .overview-site h1{
     margin: 25px 0px 0px 0px;
