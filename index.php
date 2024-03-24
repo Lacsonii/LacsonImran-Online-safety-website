@@ -99,33 +99,28 @@
     <img src ="images/safe-online.png" alt ="pictureSafe">
         <ul>
             <li>
-                TechCheck is dedicated to providing you with access to the</br>
+                Block anyone you’ve had contact with that was negative or unsafe.</br>
             </li>
             <li>
-                If you are a member of the news media and would like</br> 
+                Protect your identity.</br> 
             </li>
             <li>
-                If you are a provider looking for information about our TechCheck</br>
+                Think before you upload and share photos.</br>
             </li>
             <li>
-                If you are a parent or provider interested in Camp techcheck,</br> 
-
+                Think carefully about sharing links to other site.</br> 
             </p>
             <li>
-                For all general questions about TechCheck,</br> 
-
+                Be mindful of what you write to others.</br> 
             </li>
             <li>
-                For all general questions about TechCheck,</br> 
-
+                keep sexting laws in mind when taking photos and sending or receiving images.</br> 
             </li>
             <li>
-                For all general questions about TechCheck,</br> 
-
+                Keep your online friends online.</br> 
             </li>
             <li>
-                For all general questions about TechCheck,</br> 
-
+                Think critically about online content (link to social post once up).</br> 
             </li>
         </ul>
       <div class = "readmore">You can Read More on <a href="https://blogs.microsoft.com/on-the-issues/2024/01/16/youth-online-safety-ai-safer-internet/">Advancing youth online safety and wellness.</a></br> 
