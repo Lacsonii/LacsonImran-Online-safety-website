@@ -59,35 +59,6 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
 </nav>
 <!-- === end navigation-bar text === --> 
 <!-- === Login pop-up text === -->
- 
-<div class = "popup">
-    <div class = "close-btn">&times;</div>
-    <div class = "form">
-      <h2>Log In</h2>
-        <div class = "form-element">
-            <lable for = "Username">Username</lable>
-            <input type = "text" id = "email" placeholder = "username or email">
-        </div>
-
-        <div class = "form-element">
-            <lable for = "password">Password</lable>
-            <input type = "password" id = "password" placeholder = "password">
-            <input type="checkbox" onclick="Function()">Show Password
-        </div>
-
-        <div class = "form-element">
-            <input type = "checkbox" id = "remember.me">
-            <lable for = "remember-me">Remember Me</lable>
-        </div>
-        <div class = "form-element">
-            <button type = "submit" class = "btn">Sign In</button></br></br>
-            <a href = "SignUp.php"><button>Sign Up</button></a>
-        </div>
-        <div class = "form-element">
-            <a href = "#">Forgot password?</a>
-        </div>
-    </div>
-</div>
 <div class="legNg">
     <div class="legNg-p1">
         <h1>Legislation and Guidelines</h1>
@@ -105,9 +76,41 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
             <u>Below are the Legislation and Guidelines of TechCheck. Read Carefully.</u></br>
         </p>
         <div class="guid-btn">
-            <button>What are Guidelines?</button>
-            <button>What is Legislation?</button>
-            <button>What are Regulations?</button>
+            <div class="popup" id = "guideline-popup">
+                <div class="overlay"></div>
+                    <div class="content">
+                    <div class="close-btn" onclick = "togglePopup()">&times;</div>
+                    <h1>What are Guidelines?</h1>
+                    <p>A guideline is a statement by which to determine a course of action.
+                        A guideline aims to streamline particular processes according to a set 
+                        routine or sound practice</p>
+                </div>
+            </div>
+            <button onclick = "togglePopup()">What are Guidelines?</button>
+            
+            <div class="popup" id = "legislation-popup">
+                <div class="overlay"></div>
+                    <div class="content">
+                    <div class="close-btn" onclick = "Legislation()">&times;</div>
+                    <h1>What is Legislation?</h1>
+                    <p>Legislation is the act or process of making or enacting laws. Some people 
+                        think there should be more legislation in the area of education and some 
+                        people think there should be les</p>
+                </div>
+            </div>
+            <button onclick = "Legislation()">What is Legislation?</button>
+
+            <div class="popup" id = "regulations-popup">
+                <div class="overlay"></div>
+                    <div class="content">
+                    <div class="close-btn" onclick = "Regulations()">&times;</div>
+                    <h1>What are Regulations?</h1>
+                    <p>Regulation is the management of complex systems according to a set of rules 
+                        and trends. In systems theory, these types of rules exist in various fields 
+                        of Information technology and society.</p>
+                </div>
+            </div>
+            <button onclick = "Regulations()">What are Regulations?</button>
         </div>
     </div>
 </div>
