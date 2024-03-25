@@ -294,7 +294,6 @@ body.dark .search-field i{
                 opacity 200ms ease-in-out 0ms,
                 transform 200ms ease-in-out 0ms;
 }
-
 .popup .close-btn{
     position: absolute;
     top: 10px;
@@ -536,6 +535,7 @@ form{
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+    font-weight: 600;
 }
 .subscribe-security button:hover{
     background-color: var(--contactform-color);
@@ -575,6 +575,16 @@ form{
     text-decoration: none;
     color: var(--labl-color);
     font-weight: lighter;
+}
+.unsubscribe h1{
+    font-size: 35px;
+}
+.subscribe-security .unsubscribe-btn{
+    background-color: rgb(136, 2, 2);
+    font-weight: 600;
+}
+.subscribe-security .unsubscribe-btn:hover{
+    background-color: rgb(216, 14, 14);
 }
 /* === end Subscribe page === */
 
@@ -1486,8 +1496,7 @@ textarea.input{
 
 /* === contactus style === */
 .contact-us{
-    margin-top: 100px; 
-    margin-left: 50px;  
+    margin: 100px 0px 0px 150px; 
 }
 .contact-us .h1{
     font-size: 38px;
@@ -1505,10 +1514,17 @@ textarea.input{
     font-size: 20px;
     font-weight: lighter;
 }
+.contact-us p a{
+    text-decoration: none;
+    color: blue;
+}
+.contact-us p a:hover{
+    text-decoration: underline blue;
+}
 /* === end contactus style === */
 
-/* === FAQ === */
 
+/* === FAQ === */
 .faq{
     position: relative;
     width: 100%;
