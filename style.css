@@ -318,7 +318,7 @@ body.dark .search-field i{
 }
 .popup .form .form-element input[type = "text"],
 .popup .form .form-element input[type = "password"]{
-    margin-top: 5px;
+    margin: 5px 0px 8px 0px;
     display: block;
     width: 100%;
     padding: 10px;
@@ -364,6 +364,94 @@ body.dark .search-field i{
     text-decoration: underline var(--text-color);
 }
 /* === end logIn pop-up styling === */ 
+
+/* === LogIn form === */
+.form-login{
+    height: 580px;
+    width: 600px;
+    background-color: var(--popup-color);
+    padding: 50px;
+    margin: 8% 0% 5% 32%;
+    text-align: left;
+}
+.form-login h1{
+    font-size: 30px;
+    padding-bottom: 50px;
+    margin: 20px 0px 0px 0px;
+}
+.LogIn-element{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.LogIn-element lable{
+    font-size: 22px;
+}
+
+.form-login .LogIn-element input[type = "text"],
+.form-login .LogIn-element input[type = "password"]{
+    margin: 2px 0px 20px 0px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--Inputpopup-color);
+    border-radius: 5px;
+}
+.form-login .LogIn-element input[type = "checkbox"]{
+    margin-right: 5px;
+}
+.form-login .LogIn-element button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: var(--nav-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 5px 0px 5px 0px;
+}
+.form-login .LogIn-element .signup a{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: var(--nav-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8px;
+}
+.form-login .LogIn-element button:hover,
+.form-login .LogIn-element .signup a:hover{
+    background-color: lightblue;
+    color: var(--black-color);
+}
+.form-login .LogIn-element a{
+    display: block;
+    text-align: right;
+    font-size: 15px;
+    color: var(--labl-color);
+    text-decoration: none;
+}
+.login-links{
+    text-align: center;
+    margin-top: 25px;
+}
+.login-links a{
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--labl-color);
+}
+ .login-links a:hover{
+    text-decoration: underline var(--labl-color);
+}
+/* === End LogIn form === */
 
 /* === SignUp form styling === */
 .SignUp-form{
@@ -894,7 +982,7 @@ form{
     background-color: #3c9684;
 }
 
-.legNg .popup .overlay{
+.popup .overlay{
     position: fixed;
     top: 0px;
     left: 0px;
@@ -903,7 +991,6 @@ form{
 }
 .popup .content{
     position: absolute;
-    top:10%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: var(--nav-color);
@@ -913,7 +1000,7 @@ form{
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 2px 15px 2px 15px;
 }
 .popup .content h1{
     margin-bottom: 15px;
@@ -1417,18 +1504,19 @@ textarea.input{
     margin: 285px  0px 0px 50px;
 }
 .policy-nav .po-nav{
+    position:absolute;
     margin-top: 70px;
     height: 200px;
     width: 100%;
     background-color: var(--color);
     background-image: linear-gradient(to right, rgb(105, 198, 230), rgb(105, 198, 230), white);
-    z-index: 4444;
+    z-index: 2222;
 }
 .privacy-list{
     margin: 100px 0 0 350px;
     background-color: var(--text-color);
     color: var(--black-color);
-    width: 210px;
+    width: 220px;
     height: 40px;
     cursor: pointer;
     border-radius: 15px;
@@ -1443,6 +1531,7 @@ textarea.input{
     background-color: var(--contactform-color);
     color: var(--text-color);
     border-radius: 15px;
+    font-size: 27px;
 }
 .po-nav .lac-i{
     position: absolute;
@@ -1450,7 +1539,6 @@ textarea.input{
     width: 150px;
     margin: -8% 0% 0% 85%;
     /* filter: blur(1px); */
-    z-index: 2;
 }
 .privacy-policy p{
     margin-left: 50px;
