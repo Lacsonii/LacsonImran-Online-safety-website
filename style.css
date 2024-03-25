@@ -1571,8 +1571,8 @@ textarea.input{
     color: var(--text-color);
     font-weight: 600;
     font-size: 18px;
-    padding: 10px;
-    margin-left: 100px;
+    padding: 12px;
+    margin-left: 110px;
     cursor: pointer;
     width: 10%;
     height: 50px;
@@ -1581,11 +1581,13 @@ textarea.input{
 .condition-links li:first-child:hover {
     color: var(--black-color);
     background-color: var(--text-color);
+    
 }
 
 .condition-links li:hover{
     color: var(--black-color);
     background-color: var(--text-color);
+    text-align: center;
 }
 .condition-links li a{
     color: var(--text-color);
