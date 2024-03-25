@@ -59,7 +59,7 @@
     <form action="register.php" method="POST" onsubmit="return validateForm()" class = "form">
       <div class="form-reg">  
         <h1 class="header">Sign Up</h1>
-        <p class="question">Already have SMC Account?&nbsp;<a href="">Sign In</a></p>
+        <p class="question">Already have SMC Account?&nbsp;<a href="LogIn.php">Sign In</a></p>
         <label class="label">First Name:</label>
         <input type="text" placeholder="First Name" name="FirstName" id = "textbox" required>
 
