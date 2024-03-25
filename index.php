@@ -200,6 +200,13 @@
 </div>
 <!-- End Popular social media application -->
 <footer>
+<div class="you-are-here">
+            <ul>
+                <li><a href = "index.php">Home</a></li>
+                <li><a href = "LegAndGuid.php">Guidlines</a></li>
+                <li><a href = "review.php">Reviews</a></li>
+            </ul>
+        </div>
     <div class ="footer">
         <div class="icon">
         <a href = "https://web.facebook.com/profile.php?id=61557074391706"><i class="fa-brands fa-facebook-f"></i></a>
