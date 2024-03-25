@@ -146,6 +146,14 @@
     </div> 
 </div>
 <footer>
+<div class="you-are-here">
+            <ul>
+                <li><a href = "contact.php">Contact</a></li>
+                <li><a href = "AboutUs.php">About Us</a></li>
+                <li><a href = "index.php">Home</a></li>
+                <li><a href = "review.php">Reviews</a></li>
+            </ul>
+        </div>
 <div class="about-text">
             <h1>About TechCheck</h1>
             <p>
