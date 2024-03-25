@@ -62,7 +62,7 @@
             <h1 class = "line-paaragraph">Trusted Campaign</h1>
         </div>
         <p class="subscribe-links">
-            <a href="contactus.php">Contact Us</a>&nbsp;|&nbsp;<a href="Subscribe.php">Subscriptions</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
+            <a href="contactus.php">Contact Us</a>&nbsp;|&nbsp;<a href="Unsubscribe.php">Unsubscribe</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
         </p>
       </div>
     </div> 
