@@ -107,6 +107,12 @@
 </div>
 <!-- end pictures -->
 <footer>
+<div class="you-are-here">
+            <ul>
+                <li><a href = "ParentsHelp.php">Parental Help</a></li>
+                <li><a href = "index.php">Home</a></li>
+            </ul>
+        </div>
     <div class ="footer">
         <div class="icon">
         <a href = "https://web.facebook.com/profile.php?id=61557074391706"><i class="fa-brands fa-facebook-f"></i></a>

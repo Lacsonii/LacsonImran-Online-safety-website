@@ -1796,7 +1796,40 @@ footer .footer i{
     cursor: pointer;
     color: var(--text-color);
 }
+.you-are-here{
+    position:absolute;
+    margin: -100px 0px 0px 1000px;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+.you-are-here ul {
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.you-are-here li a{
+    text-decoration: none;
+    color: var(--text-color);
+}
 
+.you-are-here li{
+    margin-bottom: 5px;
+    width: 120px;
+
+}
+.you-are-here li:first-child,
+.you-are-here li:first-child:hover {
+    background-color: rgb(129, 3, 3);
+    color: var(--text-color);
+    border-radius: 15px;
+}
+.you-are-here ul li:hover{
+    background-color: rgb(129, 3, 3);
+    color: var(--text-color);
+    border-radius: 15px;
+}
 footer .footer i:hover{
     color: var(--Inputpopup-color);
 }

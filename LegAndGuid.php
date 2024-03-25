@@ -266,6 +266,13 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
 </div>
 <!-- === end Login pop-up text === -->
 <footer>
+<div class="you-are-here">
+            <ul>
+                <li><a href = "LegAndGuid.php">Guidelines</a></li>
+                <li><a href = "Livestreaming.php">Livestreaming</a></li>
+                <li><a href = "index.php">Home</a></li>
+            </ul>
+        </div>
     <div class ="footer">
         <div class="icon">
         <a href = "https://web.facebook.com/profile.php?id=61557074391706"><i class="fa-brands fa-facebook-f"></i></a>
