@@ -57,14 +57,13 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     </div>
 </nav>
 <div class="policy-nav">
+   
     <nav class = "po-nav">
-                <a href = "Information.php">Introduction</a>
-                <a href = "SocialMedia.php">Identifying Purposes</a>
-                <a href = "Livestreaming.php">Consent</a>
-                <a href = "LegAndGuid.php">Limiting Collection</a>
-                <a href = "ParentsHelp.php">Limiting Use, Disclosure and Retention</a>
-                <a href = "contact.php">Additional Information</a>
-</nav>
+    <div class="privacy">
+        <ul class="privacy-list"><li>Privacy Policy<i class='bx bxs-chevron-down'></i></li></ul>
+    </div>
+        <img src = "images/privacypolicy.png" alt = "Lacson Image" class = "lac-i">
+    </nav>
 </div>
     <div class = "privacy-policy">
         <h4>Privay Policy</h4>
