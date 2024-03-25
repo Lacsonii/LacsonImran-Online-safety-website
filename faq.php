@@ -58,7 +58,9 @@
 </nav>
 <!-- === end navigation-bar text === --> 
 <div class="faq">
-    <h1>Frequent asked questions</h1>
+    <img src = "images/faq.png" alt = "Lacson Image" class = "lacson">
+
+    <h1>Frequent asked questions.</h1>
     <p>Your right to know gurantees your right to ask. Search for a question</br>in the search bar.</p>
     <div class="search-question">
         <input type="search" placeholder="Search....">
@@ -66,7 +68,16 @@
     </div>
 </div>
 <div class="faq-box">
+    <div class="QandA">
+        <h1>What is SMC?</h1>
+        <h1>Why should teenagers be safe online?</h1>
+        <h1>What is the purpose of this campaign?</h1>
+        <h1>Why should I follow everything about SMC?</h1>
+        <h1>How Safe will teenagers be if they adhere to SMC?</h1>
+        <h1>What is the role of a parent?</h1>
+        <h1>What is Internet and Security?</h1>
 
+    </div>
 </div>
 <!-- === end Login pop-up text === -->
 <footer>
