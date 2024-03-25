@@ -59,37 +59,37 @@
 <div class="contact-us">
         <h1 class = "h1">Contact Us</h1>
         <p>
-            TechCheck is dedicated to providing you with access to the Internet experts and Online habits, browsing and</br> 
+            SMC is dedicated to providing you with access to the Internet experts and Online habits, browsing and</br> 
             physical activity information you need to help us raise protected internet teenager users in you</br>
             communities.</br>
         </p>
         <h1>Media Inquiries</h1>
         <p>
-            If you are a member of the news media and would like to speak with someone regarding TechCheck focus areas, programs and</br> 
-            resources contact senior PR coordinator Berna Ntapara at <a href="">bbena.berna@tcheck.org</a> or  999-123-4567.</br>
+            If you are a member of the news media and would like to speak with someone regarding SMC focus areas, programs and</br> 
+            resources contact senior PR coordinator Berna Ntapara at <a href="">bbena.berna@smc.org</a> or  999-123-4567.</br>
         </p>
-        <h1>TechCheck Provider Online Tips</h1>
+        <h1>SMC Provider Online Tips</h1>
         <p>
-            If you are a provider looking for information about our TechCheck Provider Online safety Program, email <a href="#">techcheckProvider@tcheck.org.</a></br>
+            If you are a provider looking for information about our SMC Provider Online safety Program, email <a href="#">smcprovider@smc.org.</a></br>
         </p>
-        <h1>Training TechCheck</h1>
+        <h1>Training SMC</h1>
         <p>
-            If you are a parent or provider interested in Camp Strong4Life, email the camp director at <a href="#">traintechcheck@tcheck.org.</a></br>
+            If you are a parent or provider interested in Camp SMC, email the camp director at <a href="#">train-sms@smc.org.</a></br>
         </p>
         <h1>Online threats</h1>
         <p>
-            If you are a parent or provider, interested in speaking with online experts at the techcheck,</br> 
-            contact <a href="#">onlinethreats@tcheck.org.</a></br>
+            If you are a parent or provider, interested in speaking with online experts at the SMC,</br> 
+            contact <a href="#">online-smc@smc.org.</a></br>
         </p>
-        <h1>Strong4Life Community Events</h1>
+        <h1>SMC Community Events</h1>
         <p>
-            If you would like techcheck team to attend your community event (e.g. social media campaings and online safey etc),</br> 
-            submit an event request application. Once you've submitted an event request application at <a href="#">application@tcheck.org.</a> a member of </br>
-            the TechCheck team will review your request and respond to you.</br>
+            If you would like SMC team to attend your community event (e.g. social media campaings and online safey etc),</br> 
+            submit an event request application. Once you've submitted an event request application at <a href="#">application@smc.org.</a> a member of </br>
+            the SMC team will review your request and respond to you.</br>
         </p>
-        <h1>General Strong4Life Inquiries</h1>
+        <h1>General SMC Inquiries</h1>
         <p>
-            For all general questions about TechCheck, email <a href="#">smc@tcheck.org.</a></br></br>
+            For all general questions about SMC, email <a href="#">general-smc@smc.org.</a></br></br>
         </p>
 </div>
 <!-- end body -->
