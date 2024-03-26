@@ -76,6 +76,25 @@
     </ul>
 </div>
 <hr> </br>
+   <div class="learning-topics">
+    <h1>Learning Objectives |</h1>
+    <ul>
+        <li>Understand What is streaming</li>
+        <li>Understand What is buffering</li>
+        <li> UnderstandWhat is Live streaming</li>
+        <li>know How does live streaming works</li>
+        <li>How live streaming could be done in Safe environment</li>
+        <li>Know difference between streaming and downloading</li>
+    </ul>
+    <div class="learning-news">
+        <h1>Want to keep on learning about Online safety?</h1>
+        <p>
+            Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!
+            <input type="text" placeholder="Email...*">
+            <button>Subscribe</button>
+        </p>
+    </div>
+   </div>
 <div class="overview-site">
     <h1 id = "section-1">What Is streaming?</h1>
     <img src ="images/streaming.png" alt ="LiveStreamImage"  class = "LiveStreamImage"><br>
@@ -99,6 +118,11 @@
         of the file. These packets are then interpreted by a browser's audio or video player on the client device,<br>
         reconstructing the content for playback.<br>
     </p>
+        <!-- live streaming embeded video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jbFF5_A-UD4?si=75Bz5sVBITPm79yk" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         <h1>What is buffering?</h1>
         <img src ="images/buffering.png" alt ="LiveStreamImage"><br>
     <p>
@@ -158,6 +182,12 @@
     Each packet contains a small piece of the file, and an audio or video player in the browser <br>
     on the client device takes the flow of data packets and interprets them as video or audio.<br>
     </p>
+
+      <!-- live streaming embeded video -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/K5n3IqpbBCE?si=hidt6MtBJuzdeeEx" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
     <h1 id = "section-4">How can live streaming be done in safe environment?</h1>
     <img src ="images/How-to-Protect.png" alt ="LiveStreamImage" class = "SafeWays">
     <p> Below are the safesty way you could live streaming in a particular environment.<br><br>
@@ -173,8 +203,21 @@
             <li>Secure content <a href = "#"> AES encryption</a></li>
         </ul>
     </p>
-</div>
 
+        <!--  live streaming embeded video  -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Lpca3EGLYJI?si=jtZgRNr9giev8Cgs" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+ <!-- live streaming embeded video -->
+ <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kCAXpAikMVc?si=C0G7CTbeLyv0Fqxj" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+
+        <img src ="images/vlogger.jpg" alt ="LiveStreamImage" class = "boy-streaming">
+    </div>
 <footer>
 <div class="you-are-here">
             <ul>
