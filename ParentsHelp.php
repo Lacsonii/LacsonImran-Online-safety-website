@@ -64,7 +64,7 @@
 <div class="image-help">
 <div class="p">
     <img src = "images/steps.png" name = "talk" alt = "talk-Image">
-        <h1>Steps to Increase Internet for Children</h1>
+        <h1>Steps to Increase Internet Safety for Children</h1>
         <ul>
             <li>Set Parental controls</li>
             <li>Install Family security Apps</li>
