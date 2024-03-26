@@ -88,7 +88,7 @@
             </p>
             <div class="img-c">
                  <h1>Get Better friend Online</h1>
-                <img src = "images/terrace.png" name = "talk" alt = "talk-Image" class = "campaign-image">
+                <img src = "images/terrace.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
                     <p>
                     <u>Campaign Aim:</u>&nbsp;</br>
                     <u>Vision:&nbsp;</u>
