@@ -870,11 +870,77 @@ form{
     border-radius: 15px;
     width: 70%;
     height: 700px;
-    margin-left: 23%;
+    margin-left: 25%;
     padding: 20px 20px 40px 20px;
 }
+.learning-topics{
+    position: absolute;
+    width: 300px;
+    height: 700px;
+    margin-left: 30px;
+    border: none;
+    padding: 15px;
+}
+.learning-topics h1{
+    color: var(--contactform-color);
+    font-size: 20px;
+}
+.learning-topics ul li{
+    margin: 10px 0px 0px 30px;
+    font-size: 15px; 
+    color: var(--black-color);
+    font-weight: lighter;
+}
+.learning-topics li::marker{
+    color:  rgb(245, 83, 24);
+}
+.learning-news{
+    margin: 70px 0px 0px 20px;
+    background-color: var(--contactform-color);
+    height: 310px;
+    width: 260px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.learning-news h1{
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--text-color);
+    padding-bottom: 20px;
+}
+.learning-news p{
+    letter-spacing: 0.5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.learning-news input{
+    margin: 12px 0px 10px 0px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.learning-news button{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: coral;
+    color: var(--text-color);
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 300;
+}
+.learning-news button:hover{
+    background-color: rgba(112, 45, 21, 0.733);
+}
 .overview-site h1{
-    margin: 25px 0px 0px 0px;
+    margin: 25px 0px 20px 0px;
     color: var(--contactform-color);
     font-size: 27px;
     text-align: center;
@@ -889,6 +955,25 @@ form{
 .overview-site .LiveStreamImage{
     width: 600px;
     height: 200px;
+}
+iframe{
+    width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    margin:40px 0px 40px 23%;
+}
+.video{
+    width: 40px;
+    height: 300px;
+    border-radius: 15px;
+    margin:10px 0px 0px 23%;
+}
+.boy-streaming{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin:-345px 0px 0px 610px;
 }
 .overview-site a{
     text-decoration: none;
@@ -1081,6 +1166,12 @@ form{
     background-color: lightblue;
     margin-bottom: 15px;
 }
+.social-image{
+    position: absolute;
+    margin: 150px 0px 0px 100px;
+    width: 360px;
+    height: 210px;
+}
 .application-text{
     margin: 15% 0 0 40%;
 }
@@ -1106,12 +1197,12 @@ form{
 .info-site{
     border: 1px solid var(--nav-color);
     height: 1000px;
-    width: 90%;
-    margin: 10px 70px 10px;
+    width: 75%;
+    margin: -370px 70px 0px 300px;
     border-radius: 15px;
 }
 .btn-app{
-    margin-left: 60px;
+    margin-left: 280px;
 }
 .btn-app button{
     margin-left: 15px;
