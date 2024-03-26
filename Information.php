@@ -79,7 +79,7 @@
             </br></br>
         </p>
         <div class="img-c">
-            <h1>WeAreTeenagers Campaign</h1>
+            <h1>Let Me Browse</h1>
             <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
             <p>
             <u>Campaign Aim:</u>&nbsp;</br>
@@ -87,7 +87,7 @@
             </br></br>
             </p>
             <div class="img-c">
-                 <h1>Your Safety Your Pride</h1>
+                 <h1>Get the Better</h1>
                 <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
                     <p>
                     <u>Campaign Aim:</u>&nbsp;</br>
@@ -95,7 +95,7 @@
                     </br></br></br></br>
                     </p>
                 <div class="img-c">
-                    <h1>ParentsLoveYou(PLY) Campaign</h1>
+                    <h1>Lets Be On Internet</h1>
                     <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
                         <p>
                         <u>Campaign Aim:</u>&nbsp;</br>
@@ -104,7 +104,7 @@
                         </p>
                     <div class="img-c">
                         <h1>WeAreTeenagers Campaign</h1>
-                        <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
+                        <img src = "images/we-are-teens.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
                         <p>
                         <u>Campaign Aim:</u>&nbsp;</br>
                         <u>Vision:&nbsp;</u>
@@ -112,7 +112,15 @@
                         </p>
                         <div class="img-c">
                             <h1>Your Safety Your Pride</h1>
-                            <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
+                            <img src = "images/woman-padlock.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
+                            <p>
+                            <u>Campaign Aim:</u>&nbsp;</br>
+                            <u>Vision:&nbsp;</u>
+                            </br></br>
+                            </p>
+                        <div class="img-c">
+                            <h1>Get Good Friends Online</h1>
+                            <img src = "images/terrace.png" name = "talk" alt = "talk-Image" class = "campaign-image">
                             <p>
                             <u>Campaign Aim:</u>&nbsp;</br>
                             <u>Vision:&nbsp;</u>
