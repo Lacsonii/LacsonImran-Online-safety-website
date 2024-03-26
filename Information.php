@@ -87,8 +87,8 @@
             </br></br>
             </p>
             <div class="img-c">
-                 <h1>Get the Better</h1>
-                <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
+                 <h1>Get Better friend Online</h1>
+                <img src = "images/terrace.png" name = "talk" alt = "talk-Image" class = "campaign-image">
                     <p>
                     <u>Campaign Aim:</u>&nbsp;</br>
                     <u>Vision:&nbsp;</u>
@@ -113,14 +113,6 @@
                         <div class="img-c">
                             <h1>Your Safety Your Pride</h1>
                             <img src = "images/woman-padlock.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
-                            <p>
-                            <u>Campaign Aim:</u>&nbsp;</br>
-                            <u>Vision:&nbsp;</u>
-                            </br></br>
-                            </p>
-                        <div class="img-c">
-                            <h1>Get Good Friends Online</h1>
-                            <img src = "images/terrace.png" name = "talk" alt = "talk-Image" class = "campaign-image">
                             <p>
                             <u>Campaign Aim:</u>&nbsp;</br>
                             <u>Vision:&nbsp;</u>
