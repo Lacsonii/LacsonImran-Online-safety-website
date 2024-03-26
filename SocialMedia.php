@@ -58,6 +58,7 @@
 </nav>
 <!-- === end navigation-bar text === --> 
 <div class="application">
+<img src = "images/social-image.png" alt = "Lacson Image" class = "social-image">
     <div class="application-text">
     <h1>Let's get you updated with latest tips and topic.</h1>
     <p>Search for more tips and read carefully.</p>
@@ -72,6 +73,14 @@
     <button>Most Popular</button>
     <button>blog Posts</button>
 </div>
+<div class="learning-news">
+        <h1>Want to keep on learning about Online safety?</h1>
+        <p>
+            Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!
+            <input type="text" placeholder="Email...*">
+            <button>Subscribe</button>
+        </p>
+    </div>
 <div class="info-site">
 
 </div>
