@@ -689,7 +689,7 @@ form{
     justify-content: center;
 }
 .index-bar{
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: #502419;
 }
@@ -698,7 +698,7 @@ form{
     padding: 5px;
     background-color: #502419;
     border-radius: 5px;
-    margin-top: 715px;
+    margin-top: 730px;
     border: none;
     text-decoration: underline 0.5px solid var(--text-color);
 }
@@ -718,7 +718,7 @@ form{
     padding: 5px;
     background-color: #502419;
     border-radius: 5px;
-    margin-top: 715px;
+    margin-top: 730px;
     border: none;
     text-decoration: underline 0.5px solid var(--text-color);
 }
@@ -806,21 +806,15 @@ form{
     text-decoration: none;
 }
 
-.popular{
-    margin-left: 22%;
-} 
-.popular p{
-    font-size: 20px;
-    font-weight: 300;
-}
-.popular .arrow{
-    color: var(--labl-color);
-    margin-left: -2%;
-    margin-bottom: 10px;
+.popular iframe{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 50px 0px -50px 100px;
 }
 .play-fun{
-    margin-left: 30%;
-    padding: 50px;
+    margin-left: 40%;
+    padding: 10px;
 }
 .play-fun h1{
     font-size: 20px;
