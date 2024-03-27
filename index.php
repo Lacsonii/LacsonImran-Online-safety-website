@@ -96,6 +96,9 @@
         <button id = "showlogin">Log in</button>
     </div> 
 </div>
+<div class="index-bar">
+    
+</div>
 <!-- How to stay online texts -->
 <div class="how-to-stay-safe">
     <h1>How to Stay safe Online</h1></br>
