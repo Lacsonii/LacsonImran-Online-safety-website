@@ -12,7 +12,7 @@
     --text-color: #FFF;
     --search-bar:  #F2F2F2;
     --search-text: #010718;
-    --footer-color: #0e0000;
+    --footer-color: #04151f;
     --popup-color: #222;
     --Inputpopup-color: #aaa;
     --black-color: black;
@@ -27,7 +27,7 @@
 /*website body styling*/
 body
 {
-    background-color: var(--body-color);
+    background-color: #f9f9f9;
 }
 body.dark{
     --body-color: #18191A;
@@ -1080,7 +1080,7 @@ iframe{
     position: absolute;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
-    background: var(--nav-color);
+    background: #04151f;
     width: 500px;
     height: 240px;
     z-index: 2;
