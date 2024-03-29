@@ -94,7 +94,7 @@
 <footer>
 <div class="you-are-here">
             <ul>
-                <li><a href = "cookieDeclaration.php">cookie Declaration</a></li>
+                <li><a href = "Admin.php">Only Admin</a></li>
                 <li><a href = "index.php">Home</a></li>
             </ul>
         </div>
