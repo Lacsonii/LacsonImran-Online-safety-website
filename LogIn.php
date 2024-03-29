@@ -78,7 +78,7 @@
             <lable for = "remember-me">Remember Me</lable>
         </div>
         <div class = "LogIn-element">
-            <button type = "submit">Sign In</button>
+            <button type = "submit" class="signup"><a href="Admin.php">Sign In</a></button>
            <button class="signup"><a href="SignUp.php">Sign Up</a></button>
         </div>
         <div class = "LogIn-element">
