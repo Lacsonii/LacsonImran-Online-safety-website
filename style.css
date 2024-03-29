@@ -365,6 +365,83 @@ body.dark .search-field i{
 }
 /* === end logIn pop-up styling === */ 
 
+/* === Admin form === */
+.admin h1{
+    margin: 100px 0px 10px 400px;
+    font-size: 43px;
+    text-decoration: underline 1px;
+    color: var(--contactform-color);
+}
+.Admin-form{
+    padding: 50px;
+    height: 800px;
+    width: 820px;
+    margin: 20px 0px 50px 400px;
+    border-radius: 10px;
+    text-align: left;
+    border: none;
+    background-color: #03254e;
+}
+.Admin-form .admin-label label{
+    margin: 15px 0px 0px 20px;
+    display: flex;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 20px;
+}
+.Admin-form .admin-label input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    margin: 5px 20px 10px 20px;
+    border: none;
+}
+.Admin-form .admin-label textarea{
+    width: 700px;
+    height: 150px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    border: none;
+}
+.button-post button{
+    background-color: #020100;
+    color: var(--text-color);
+    font-size: 25px;
+    width: 50%;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    margin: 20px 0px 0px 200px;
+    border-radius: 10px;
+}
+.button-post button:hover{
+    background-color: lightblue;
+    color: var(--black-color);
+}
+.Admin-form .admin-links{
+    margin-top: 100px;
+    text-align: center;
+    color: var(--labl-color);
+}
+.Admin-form .admin-links a{
+    font-size: 12px;
+    color: var(--labl-color);
+    text-decoration: none;
+}
+.Admin-form .admin-links a:hover{
+    text-decoration: underline 1px solid var(--text-color);
+}
+/* === End Admin form === */
+
+
 /* === LogIn form === */
 .form-login{
     height: 580px;
