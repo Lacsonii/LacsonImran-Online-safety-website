@@ -367,16 +367,15 @@ body.dark .search-field i{
 
 /* === Admin form === */
 .admin h1{
-    margin: 100px 0px 10px 400px;
-    font-size: 43px;
-    text-decoration: underline 1px;
+    margin: 150px 0px 0px 400px;
+    font-size: 30px;
     color: var(--contactform-color);
 }
 .Admin-form{
     padding: 50px;
     height: 800px;
     width: 820px;
-    margin: 20px 0px 50px 400px;
+    margin: 5px 0px 50px 400px;
     border-radius: 10px;
     text-align: left;
     border: none;
@@ -401,7 +400,7 @@ body.dark .search-field i{
 }
 .Admin-form .admin-label textarea{
     width: 700px;
-    height: 150px;
+    height: 200px;
     border-radius: 5px;
     outline: none;
     resize: none;
@@ -419,7 +418,7 @@ body.dark .search-field i{
     font-weight: 600;
     cursor: pointer;
     border: none;
-    margin: 20px 0px 0px 200px;
+    margin: 20px 0px 0px 25%;
     border-radius: 10px;
 }
 .button-post button:hover{
@@ -427,7 +426,7 @@ body.dark .search-field i{
     color: var(--black-color);
 }
 .Admin-form .admin-links{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     color: var(--labl-color);
 }
