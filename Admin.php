@@ -57,7 +57,39 @@
     </div> 
 </nav>
 <!-- === end navigation-bar text === --> 
+<div class="admin">
+    <h1>Post New Updates here</h1>
+    <form class="Admin-form">
+        <div class="admin-label">
+            <label>Topic/header</label>
+                <input type="text">
+        </div>
 
+        <div class="admin-label">
+            <label>TopicID</label>
+            <input type="text">
+        </div>
+
+        <div class="admin-label">
+            <label>UpdatedDate</label>
+            <input type="date">
+        </div>
+
+        <div class="admin-label">
+            <label>Description</label>
+            <textarea></textarea>
+        </div>
+
+        <div class="button-post">
+        <button>Post</button>
+    </div>
+
+    <div class="admin-links">
+        <a href="">Account Help</a>&nbsp;|&nbsp;<a href="Subscribe.php">Subscriptions</a>&nbsp;|&nbsp;<a href="Unsubscribe.php">Unsubscribe</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
+      </div>
+    </form>
+
+</div>
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
