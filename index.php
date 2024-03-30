@@ -148,8 +148,8 @@
         This includes Facebook, Instagram and X-twitter (formerly know as twitter)</br>
     </p>
 
-    <div class="fb-p">
-            <h1>About Facebook</h1>
+    <div class="facebook">
+            <h2>About Facebook&nbsp;&nbsp;<i class="fa-brands fa-facebook"></i></h2>
         <p>
             Facebook is a social networking site that makes it easy for you to connect and share with</br>
             family and friends online. Originally designed for college students, Facebook was </br>
@@ -160,10 +160,9 @@
             You can create an account on <a href ="https://web.facebook.com/signup?_rdc=1&_rdr">Facebook</a></br>
             <a href="https://edu.gcfglobal.org/en/facebook101/what-is-facebook/1/">Read more</a></br>
         </p>
-
     </div>
-    <div class="x-t-p">
-            <h1>About X(Formaly twitter)</h1>
+    <div class="x-twitter">
+            <h2>About X(Formaly twitter)&nbsp;&nbsp;<i class="fa-brands fa-square-x-twitter"></i></h2>
         <p>
              X (formerly Twitter) is an online news and social networking site where</br> 
             people communicate in short messages. The hope is that your words are useful and </br>
@@ -175,8 +174,8 @@
         </p>
 
     </div>
-        <div class="IG-p">
-            <h1>About Instagram</h1>
+        <div class="Instagram">
+            <h2>About Instagram&nbsp;&nbsp;<i class="fa-brands fa-square-instagram"></i></h2>
             <p>
             Instagram is a free photo and video sharing app available on iPhone and Android. People can</br>
             upload photos or videos to our service and share them with their followers or with a </br>
