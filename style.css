@@ -877,6 +877,23 @@ form{
 .popular-social-media h1{
     color: var(--contactform-color);
 }
+.facebook p,
+.Instagram p,
+.x-twitter p{
+
+    margin-bottom: 50px;
+}
+.facebook h2,
+.Instagram h2,
+.x-twitter h2{
+    color: var(--nav-color);
+    margin-top: 20px;
+}
+.facebook i,
+.Instagram i,
+.x-twitter i{
+    color: var(--labl-color);
+}
 .popular-social-media p a{
     color: blue;
     text-decoration: none;
