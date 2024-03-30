@@ -1217,20 +1217,15 @@ iframe{
 .header-camapign{
     font-size: 50px;
     font-weight: 300;
-}
-.campaign h1{
     margin-left: 100px;
     color: var(--nav-color);
-    padding: 0.2rem;
-    font-weight: 250;
 }
-
 .campaign p{
     margin-left: 109px;
     font-size: 25px;
     font-weight: 500;
 }
-.parent-ing p{
+.campaign .parent-ing p{
     margin-left: 109px;
     font-size: 25px;
     font-weight: 500;
@@ -1239,23 +1234,32 @@ iframe{
     margin-top: 6rem;
     margin-left: 20%;
 }
-.parent-ing  p h3{
+.parent-ing h3{
     margin-left: 100px;
     color: var(--contactform-color);
 }
-.parent-ing p{
-    font-size: 20px;
+.parent-ing h2{
+    margin: 30px 0px 2px 150px;
+    color: var(--contactform-color);
+
+}
+.parent-ing h3{
+    margin: 30px 0px 2px 150px;
+    color: var(--contactform-color);
 }
 
+.parent-ing .img-campaign p{
+    margin: 10px 0px 0px 10px 150px;
+}
 
-.parent-ing .img-c .campaign-image{
+.parent-ing .img-campaign .campaign-image{
     border-radius: 10%;
     width: 550px;
     height: 470px;
     margin-left: 130px;
     padding: 0.2rem;
 }
-.parent-ing .img-c u{
+.parent-ing .img-campaign u{
     color: var(--nav-color);
     font-size: 25px;
     margin-left: 50px;
