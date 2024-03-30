@@ -1754,17 +1754,21 @@ textarea.input{
 
 /* === cookies === */
 .cookie-pre{
-    margin-top: 150px; 
-    margin-left: 50px;
-    margin-bottom: 15%;
+    margin: 150px 0px 100px 50px; 
 }
 .cookie-pre h1{
     font-size: 45px;
+    color: var(--contactform-color);
 }
 .cookie-pre p{
     font-size: 20px;
     font-weight: lighter;
 }
+.cookie-pre a{
+    color: blue;
+    text-decoration: underline 1px solid blue;
+}
+
 /* cookie declaration */
 .declaration{
     margin: 150px 0px 0px 150px;
@@ -1798,6 +1802,27 @@ textarea.input{
 }
 .cookie-policy{
     margin: 150px 0px 0px 150px;
+}
+.cookie-policy h1{
+    color: var(--contactform-color);
+    margin-bottom: 10px;
+}
+.cookie-policy h2{
+    color: var(--contactform-color);
+    margin-bottom: 10px;
+}
+.cookie-policy p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.cookie-policy ul{
+    font-size: 20px;
+}
+.cookie-policy li::marker{
+    color: var(--labl-color);
+}
+.cookie-policy li{
+    margin:0px 0px 30px 50px;
 }
 /* end cookies === */
 
