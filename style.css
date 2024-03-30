@@ -1224,6 +1224,7 @@ iframe{
     padding: 0.2rem;
     font-weight: 250;
 }
+
 .campaign p{
     margin-left: 109px;
     font-size: 25px;
@@ -1238,6 +1239,14 @@ iframe{
     margin-top: 6rem;
     margin-left: 20%;
 }
+.parent-ing  p h3{
+    margin-left: 100px;
+    color: var(--contactform-color);
+}
+.parent-ing p{
+    font-size: 20px;
+}
+
 
 .parent-ing .img-c .campaign-image{
     border-radius: 10%;
