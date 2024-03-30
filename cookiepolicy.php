@@ -57,7 +57,59 @@
     </div> 
 </nav>
 <!-- === end navigation-bar text === --> 
+<div class="cookie-policy">
+    <h1>Cookie Policy for SMC</h1>
+    <p>
+        At SMC, we respect your privacy and are committed to providing transparency about the use of cookies on our website.
+    </p>
+    <h2>What are Cookies?</h2>
+    <p>
+        Cookies are small text files that are stored on your device when you visit a website. They serve various purposes, including <br>
+        enhancing your browsing experience and providing us with valuable information to improve our services.
+    </p>
+    <h2>How We Use Cookies</h2>
+    <ul>
+        <li>
+        Essential Cookies: These cookies are necessary for the basic functioning of our website. They enable core functionalities <br>
+        such as navigation and access to secure areas.
+        </li>
+        <li>
+        Analytical Cookies: We use analytical cookies to track visitor interactions and analyze data to improve the <br>
+        performance and content of our website.
+        </li>
+        <li>
+        Marketing Cookies: Marketing cookies are used to personalize your experience and deliver relevant content and <br>
+        advertisements based on your interests.
+        </li>
+    </ul>
 
+    <h2>Your Cookie Choices</h2>
+    <p>
+        You have the option to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually <br>
+        modify your browser settings to decline cookies if you prefer. However, this may prevent you <br>
+        from taking full advantage of our website.
+    </p>
+
+    <h2>Third-Party Cookies</h2>
+    <p>
+        We may also utilize third-party cookies, such as those from Google Analytics, to gather information about website <br>
+        traffic and usage patterns. These cookies are subject to the respective privacy policies of the third-party providers.
+    </p>
+
+    <h2>Updates to Our Policy</h2>
+    <p>
+        We may update our Cookie Policy from time to time to reflect changes in technology or legislation. Any revisions will be <br>
+        posted on this page, so please check back periodically for updates.<br>
+    </p>
+
+    <h2>Contact Us</h2>
+    <p>
+        If you have any questions or concerns about our Cookie Policy or the use of cookies on our website,<br> 
+        please contact us at contact@smc.com.<br><br><br><br>
+    </p>
+    <p>Last Updated: 31/03/2024</p>
+
+</div>
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
