@@ -105,7 +105,7 @@
     <h2>Contact Us</h2>
     <p>
         If you have any questions or concerns about our Cookie Policy or the use of cookies on our website,<br> 
-        please contact us at contact@smc.com.<br><br><br><br>
+        please contact us at <a href="#">contact@smc.com.</a><br><br><br><br>
     </p>
     <p>Last Updated: 31/03/2024</p>
 
