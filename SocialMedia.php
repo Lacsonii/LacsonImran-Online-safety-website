@@ -82,7 +82,12 @@
         </p>
     </div>
 <div class="info-site">
-
+<form class="SocialMedia-form">
+    <input type="text" value="">
+    <input type="text" value="">
+    <textarea></textarea>
+    <input type="text" value="">
+</form>
 </div>
 <!-- === end Login pop-up text === -->
 <footer>
