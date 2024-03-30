@@ -1752,7 +1752,7 @@ textarea.input{
 }
 /* === end privacy policy page style === */
 
-/* === cookie-p === */
+/* === cookies === */
 .cookie-pre{
     margin-top: 150px; 
     margin-left: 50px;
@@ -1765,7 +1765,41 @@ textarea.input{
     font-size: 20px;
     font-weight: lighter;
 }
-/* end cookie-p === */
+/* cookie declaration */
+.declaration{
+    margin: 150px 0px 0px 150px;
+}
+.declaration h1{
+    color: var(--contactform-color);
+    margin-bottom: 30px;
+}
+.declaration p,
+.declaration li,
+.conclusion p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.declaration ol{
+    margin-bottom: 40px;
+}
+.declaration li{
+    margin-left: 70px;
+}
+.declaration li::marker{
+    color: var(--labl-color);
+}
+.conclusion a{
+    text-decoration: none;
+    color: blue;
+}
+.conclusion a:hover{
+    text-decoration: underline 1px solid blue;
+}
+.cookie-policy{
+    margin: 150px 0px 0px 150px;
+}
+/* end cookies === */
 
 /* === contactus style === */
 .contact-us{
