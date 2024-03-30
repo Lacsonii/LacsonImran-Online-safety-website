@@ -62,7 +62,7 @@
     Cookie preferences are the types of cookies that users have enabled or disabled on a particular website or browser.</br> 
     Cookie preferences are often set through a cookie banner, cookie preference panel, or settings function.</br>
 </p></br></br>
-<p>Appears in:<a href="cookiepolicy.php">Cookie Policies</a></p>
+<p>Appears in: <a href="cookiepolicy.php">Cookie Policies</a></p>
 </div>
 <!-- End Popular social media application -->
 <footer>
