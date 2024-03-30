@@ -57,7 +57,42 @@
     </div> 
 </nav>
 <!-- === end navigation-bar text === --> 
+<div class="declaration">
+    <h1>Cookie Declaration for SMC Website</h1>
+    <p>
+        Welcome to SMC! To ensure your browsing experience is smooth and tailored to your needs, <br>
+        we utilize cookies – small files stored on your device. Here's a breakdown of how we use them:
+    </p>
+    <ol>
+        <li>
+            <strong>Essential Cookies:</strong> These are crucial for the basic functionality of our website. They enable core<br>
+            features like navigation and access to secure areas.
+        </li>
 
+        <li>
+            <strong>Analytical Cookies:</strong> By gathering anonymous data, these cookies help us understand how you interact with our site. This <br>
+             insight allows us to enhance performance and offer you a better user experience.
+        </li>
+
+        <li>
+            <strong>Marketing Cookies:</strong> Tailoring our marketing efforts to your interests is made possible by these cookies. <br>
+            They track your browsing habits to deliver relevant ads that resonate with you.
+    </li>
+    </ol>
+
+    <div class="conclusion">
+    <p>
+        You have the power to manage your cookie preferences. Simply adjust your browser settings accordingly. However, be mindful <br>
+        that disabling certain cookies may impact the functionality of our website.<br><br>
+
+        Your continued use of our website implies consent to the use of cookies as outlined in this declaration. For a more <br>
+        comprehensive overview of our data practices, please consult our <a href="privacypolicy.php">Privacy Policy.</a> If you have any questions or <br>
+        concerns, feel free to <a href="contactus.php">reach out to us.</a> We're here to help!<br><br><br><br>
+
+        Thank you for choosing SMC for your online experience.
+    </p>
+    </div>
+</div>
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
