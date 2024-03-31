@@ -1,3 +1,38 @@
+<?php 
+
+    session_start();
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        $username = $_POST["Username"];
+        $password = $_POST["Password"];
+
+        $host = "localhost";
+        $userID = "root";
+        $pass = "";
+        $dbname = "smc_limited";
+
+        $conn = mysqli_connect($host, $userID,$pass,$dbname);
+        $result = mysqli_query($conn, "SELECT * FROM webusers WHERE username ='$username'");
+
+        if(mysqli_num_rows($result) > 0)
+        {
+            $row = mysqli_fetch_object($result);
+
+            if(password_verify($password, $row->password))
+            {
+
+            }
+            else{
+                $_SESSION["error"] = "Wrong password";
+            }
+        }
+        else{
+            $_SESSION["error"] = "Username does not exist";
+        }
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,17 +94,21 @@
 <!-- === end navigation-bar text === --> 
 
 <!-- === Log In form === -->
-<form class="form-login">
+<form action = "" method ="POST" class="form-login">
     <div class = "LogIn-form">
       <h1>Sign In</h1>
+      <?php if(isset($_SESSION["error"])) {?>
+            <p style="color: white;"><?= $_SESSION["error"]; ?></p>
+        <?php unset($_SESSION["error"]); } ?>
+
         <div class = "LogIn-element">
             <lable for = "Username">Username</lable>
-            <input type = "text" id = "email" placeholder = "username or email">
+            <input type = "text" id = "email" placeholder = "username or email" name = "Username">
         </div>
 
         <div class = "LogIn-element">
             <lable for = "password">Password</lable>
-            <input type = "password" id = "password" placeholder = "password">
+            <input type = "password" id = "password" placeholder = "password" name = "Password">
             <input type="checkbox" onclick="Function()">Show Password
         </div>
 
@@ -78,7 +117,7 @@
             <lable for = "remember-me">Remember Me</lable>
         </div>
         <div class = "LogIn-element">
-            <button type = "submit" class="signup"><a href="Admin.php">Sign In</a></button>
+            <button type = "submit" class="signup"><a href="#">Sign In</a></button>
            <button class="signup"><a href="SignUp.php">Sign Up</a></button>
         </div>
         <div class = "LogIn-element">
