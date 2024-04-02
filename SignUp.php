@@ -56,7 +56,7 @@
     </div>
   </nav>
   <div class = "SignUp-form"> 
-    <form action="register.php" method="POST" onsubmit="return validateForm()" class = "form">
+    <form action="databaseConnection.php" method="POST" onsubmit="return validateForm()" class = "form">
       <div class="form-reg">  
         <h1 class="header">Sign Up</h1>
         <p class="question">Already have SMC Account?&nbsp;<a href="LogIn.php">Sign In</a></p>
