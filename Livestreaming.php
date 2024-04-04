@@ -224,6 +224,7 @@
                 <li><a href = "Livestreaming.php">Livestreaming</a></li>
                 <li><a href = "index.php">Home</a></li>
             </ul>
+            <img src ="images/playStore.png" alt ="PlayStore Badge" class="playstore">
         </div>
     <div class ="footer">
         <div class="icon">
