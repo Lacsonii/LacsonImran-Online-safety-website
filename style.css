@@ -119,6 +119,36 @@ nav .nav-bar .sidebarOpen{
     padding: 0 14px;
 }
 
+/* Dropdown  */
+.Dropdown{
+    width: 100%;
+    padding: 2px;
+    top: 50px;
+    left: 40px;
+    position: absolute;
+    background-color: var(--nav-color);
+    border-radius: 0px 0px 5px 5px;
+    height: 250px;
+}
+
+.links .Dropdown li:hover{
+    text-decoration: none;
+}
+.Dropdown-live{
+    width: 15%;
+    padding: 2px;
+    top: 70px;
+    left: 490px;
+    position: absolute;
+    background-color: var(--nav-color);
+    border-radius: 0px 0px 5px 5px;
+    height: 130px;
+}
+.links .Dropdown-live li:hover{
+    text-decoration: none;
+}
+/* End Dropdown" */
+
 .nav-bar .menu-links .links li a{
     margin: 0 5px;
     height: 100%;
@@ -2041,16 +2071,18 @@ footer .footer i{
 }
 .you-are-here{
     position:absolute;
-    margin: -100px 0px 0px 1000px;
+    margin: -30px 0px 0px 1000px;
     font-size: 16px;
     font-weight: lighter;
     padding-bottom: 50px;
+    
 }
 .you-are-here ul {
     list-style: none;
     text-align: center;
     cursor: pointer;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 .you-are-here li a{
     text-decoration: none;
@@ -2059,7 +2091,7 @@ footer .footer i{
 
 .you-are-here li{
     margin-bottom: 5px;
-    width: 120px;
+    width: 118px;
 
 }
 .you-are-here li:first-child,
@@ -2072,6 +2104,11 @@ footer .footer i{
     background-color: rgb(129, 3, 3);
     color: var(--text-color);
     border-radius: 15px;
+}
+.playstore{
+    width: 190px;
+    height: 75px;
+    cursor: pointer;
 }
 footer .footer i:hover{
     color: var(--Inputpopup-color);
