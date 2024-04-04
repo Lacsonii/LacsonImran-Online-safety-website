@@ -24,10 +24,24 @@
                 </div>
 
             <ul class = "links">
-                <li><a href = "index.php">Social Issues</a></li>
+                <li><a href = "index.php">Social Issues</a>
+                <ul class="Dropdown">
+                    <li><a href="">Cyberbullying</a></li>
+                    <li><a href="">cyberbullying</a></li>
+                    <li><a href="">cyberbullying</a></li>
+                    <li><a href="">cyberbullying</a></li>
+                    <li><a href="">cyberbullying</a></li>
+                    <li><a href="">cyberbullying</a></li>
+                </ul>
+                </li>
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
+                <ul class="Dropdown-live">
+                    <li><a href="">Cyberbullying</a></li>
+                    <li><a href="">cyberbullying</a></li>
+                    <li><a href="">cyberbullying</a></li>
+                </ul>
                 <li><a href = "LegAndGuid.php">Guidlines</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
@@ -213,6 +227,7 @@
                 <li><a href = "LegAndGuid.php">Guidlines</a></li>
                 <li><a href = "review.php">Reviews</a></li>
             </ul>
+            <img src ="images/playStore.png" alt ="PlayStore Badge" class="playstore">
         </div>
     <div class ="footer">
         <div class="icon">
