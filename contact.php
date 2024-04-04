@@ -153,6 +153,7 @@
                 <li><a href = "index.php">Home</a></li>
                 <li><a href = "review.php">Reviews</a></li>
             </ul>
+            <img src ="images/playStore.png" alt ="PlayStore Badge" class="playstore">
         </div>
 <div class="about-text">
             <h1>About TechCheck</h1>
