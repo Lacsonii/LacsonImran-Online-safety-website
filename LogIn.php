@@ -136,6 +136,7 @@
                 <li><a href = "SignUp.php">Sign Up</a></li>
                 <li><a href = "index.php">Home</a></li>
             </ul>
+            <img src ="images/playStore.png" alt ="PlayStore Badge" class="playstore">
         </div>
     <div class ="footer">
         <div class="icon">
