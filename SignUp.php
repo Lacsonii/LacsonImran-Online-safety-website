@@ -275,7 +275,7 @@
         <input type="text" placeholder="techcheck@gmail..." name="EmailAddress" id = "textbox" required>
 
         <label class="label">ID Type:</label>
-        <select name="IDType" class = "textbox" required>
+        <select name="IDtype" class = "textbox" required>
         <option value="">--select ID type--</option>
           <option value="Passport">Passport</option>
           <option value="National ID">National ID</option>
@@ -283,13 +283,13 @@
         </select>
 
         <label class="label">ID NO.:</label>
-        <input type="text" placeholder="Enter ID Number" name="userID" id = "textbox" required>
+        <input type="text" placeholder="Enter ID Number" name="IDNumber" id = "textbox" required>
         <label class = "label">Upload ID</label>
 
-        <input type = "file" name = "IDpicture" id = "textbox" required>
+        <input type = "file" name = "UploadImage" id = "textbox" required>
 
         <label class="label">Gender:</label>
-        <select name="gender" class = "textbox"required>
+        <select name="Gender" class = "textbox"required>
         <option value="">--select gender--</option>
           <option value="Male">Male</option>
           <option value="Female">Female</option>
