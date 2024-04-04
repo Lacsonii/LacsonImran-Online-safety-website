@@ -191,6 +191,7 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
                 <li><a href = "termsAndConditions.php">Terms & Conditions</a></li>
                 <li><a href = "index.php">Home</a></li>
             </ul>
+            <img src ="images/playStore.png" alt ="PlayStore Badge" class="playstore">
         </div>
     <div class ="footer">
         <div class="icon">
