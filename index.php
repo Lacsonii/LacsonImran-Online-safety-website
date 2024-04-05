@@ -64,7 +64,7 @@
                 </div>
 
                 <div class = "search-field">
-                    <input type ="text" id="myInput" placeholder = "Search...">
+                    <input type ="text" id="myInput" placeholder = "Search..." required>
                     <i class='bx bx-search'></i>
                 </div>
             </div>
@@ -115,10 +115,12 @@
 <div class="index-bar">
     
 </div>
-
+<div class="image-3D">
+    <img src ="images/3D-picture.png" alt ="pictureSafe">
+    <img src ="images/3D-picture.png" alt ="pictureSafe">
+</div>
 <!-- How to stay online texts -->
 <div class="how-to-stay-safe">
-<div id="myDIV">
     <h1>How to Stay safe Online</h1></br>
     <img src ="images/safe-online.png" alt ="pictureSafe">
         <ul>
@@ -158,8 +160,9 @@
     <img src ="images/safe.png" alt ="pictureSafe">
 </div>
 
+
 <!-- Popular social media application -->
-<div class="popular-social-media">
+<div class="popular-social-media" id="myDIV">
     <h1 class = "header-media">Popular Social Media Applications</h1>
     <p class = "p-media">
         Be aware of the social media applications in this world, which we are sure you all know about them</br>
@@ -214,7 +217,6 @@
             <a href="https://help.instagram.com/424737657584573/?helpref=uf_share">Read More</a>
         </p>
     </div>
-</div>
 </div>
 <div class="play-fun">
     <h1>Play fun and test your typing skills</h1>
