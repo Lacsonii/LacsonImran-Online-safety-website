@@ -76,6 +76,15 @@
             <li>Update your Operating System</li>
             <li>Balane safety with independence</li>
         </ul>
+        <br><br>
+        <!-- Alert -->
+        <div class="login-signup-alert">
+                <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+                Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+            </div><br><br>
+    <!-- end alert -->
+
     </div>
     <div class="p">
         <img src = "images/ways.png" name = "talk" alt = "talk-Image">
