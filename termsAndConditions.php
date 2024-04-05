@@ -65,7 +65,7 @@
     <ul class="condition-links">
         <li>Terms of Use</li>
         <li>Copywrite</li>
-        <li>Privacy Policy</li>
+        <li><a href="privacypolicy.php">Privacy Policy</a></li>
     </ul>
 </div>
 <div class="terms-paragraph">
@@ -98,7 +98,7 @@
             under these conditions:<br>
             (a) You can only use the software for personal, noncommercial purposes.<br>
             (b) You cannot modify or alter the software.<br>
-            (c) You cannot redistribute the software.<br><br><br>
+            (c) You cannot redistribute the software.<br><br>
          </p>
     <h1>3. Use of Materials</h1>
         <p>
@@ -107,6 +107,13 @@
             (a) Use the materials only for personal, noncommercial purposes.<br>
             (b) Don't modify or alter the materials.<br>
             (c) Don't redistribute the materials.<br><br><br>
+            <!-- Alert -->
+            <div class="login-signup-alert">
+                <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+                Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+            </div><br><br>
+    <!-- end alert -->
         </p>
     <h1>4. Use of Community Services</h1>
         <p>
@@ -145,7 +152,15 @@
         If you have questions about our Communities, please see our policies and contact information here. <br>
         If you have any other questions, contact information is available at the Contact SMC page on the Site.<br><br>
 
-        Last Revised: March 24, 2024
+        <u>Last Revised: March 24, 2024</u>
+        <br><br>
+        <!-- Alert -->
+        <div class="login-signup-alert">
+            <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+            Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+        </div>
+    <!-- end alert -->
     </p>
 </div>
 <!-- === end Login pop-up text === -->
