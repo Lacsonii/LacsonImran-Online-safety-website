@@ -439,22 +439,30 @@ body.dark .search-field i{
     margin: 10px 20px 10px 20px;
     border: none;
 }
-.button-post button{
-    background-color: #020100;
-    color: var(--text-color);
-    font-size: 25px;
-    width: 50%;
+.button-post .btnPost{
+    display: flex;
     padding: 10px;
     font-weight: 600;
-    cursor: pointer;
-    border: none;
-    margin: 20px 0px 0px 25%;
-    border-radius: 10px;
 }
-.button-post button:hover{
+
+.button-post input{
+    margin: 0px 0px 0px 190px;
+    width: 50%;
+    height: 50px;
+    background: var(--black-color);
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button-post input:hover{
     background-color: lightblue;
     color: var(--black-color);
 }
+
 .Admin-form .admin-links{
     margin-top: 50px;
     text-align: center;
@@ -470,6 +478,33 @@ body.dark .search-field i{
 }
 /* === End Admin form === */
 
+/* Login Alert */
+.login-signup-alert{
+    height: 80px;
+    background-color: var(--labl-color);
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.login-signup-alert a{
+    text-decoration: none;
+}
+.closeButton{
+    margin-left: 10px;
+    color: rgb(253, 4, 4);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closeButton:hover{
+    color: var(--black-color);
+}
+/* login Alert */
 
 /* === LogIn form === */
 .form-login{
