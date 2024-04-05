@@ -79,7 +79,13 @@
             They track your browsing habits to deliver relevant ads that resonate with you.
     </li>
     </ol>
-
+    <!-- Alert -->
+    <div class="login-signup-alert">
+        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div><br><br>
+    <!-- end alert -->
     <div class="conclusion">
     <p>
         You have the power to manage your cookie preferences. Simply adjust your browser settings accordingly. However, be mindful <br>
@@ -89,7 +95,7 @@
         comprehensive overview of our data practices, please consult our <a href="privacypolicy.php">Privacy Policy.</a> If you have any questions or <br>
         concerns, feel free to <a href="contactus.php">reach out to us.</a> We're here to help!<br><br><br><br>
 
-        Thank you for choosing SMC for your online experience.
+        <u>Thank you for choosing SMC for your online experience.</u>
     </p>
     </div>
 </div>
