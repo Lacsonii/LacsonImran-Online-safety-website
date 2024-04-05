@@ -59,29 +59,29 @@
 <!-- === end navigation-bar text === --> 
 <div class="admin">
     <h1>Post New Updates here</h1>
-    <form class="Admin-form">
+    <form class="Admin-form" action="AdminAction.php" method="POST">
         <div class="admin-label">
             <label>Topic/header</label>
-                <input type="text">
+                <input type="text" name = "Topic" required>
         </div>
 
         <div class="admin-label">
             <label>TopicID</label>
-            <input type="text">
+            <input type="text" name = "TopicID" required>
         </div>
 
         <div class="admin-label">
             <label>UpdatedDate</label>
-            <input type="date">
+            <input type="date" name = "UpdatedDate" required>
         </div>
 
         <div class="admin-label">
             <label>Description</label>
-            <textarea></textarea>
+            <textarea name = "TipsDescription" required></textarea>
         </div>
 
         <div class="button-post">
-        <button>Post</button>
+        <div class = "btnPost"><input type="submit" value="Post"></div>
     </div>
 
     <div class="admin-links">
