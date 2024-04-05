@@ -9,6 +9,8 @@
     <!-- Boxicons CSS -->
 <link href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -49,7 +51,7 @@
                 </div>
 
                 <div class = "search-field">
-                    <input type ="text" placeholder = "Search...">
+                    <input type ="text" id="myInput" placeholder = "Search..." required>
                     <i class='bx bx-search'></i>
                 </div>
             </div>
@@ -70,7 +72,7 @@
         This includes Facebook, Instagram and X-twitter (formerly know as twitter)</br>
     </p>
 </div>
- <div class="parent-ing">
+ <div class="parent-ing" id="myDIV">
     <div class="img-campaign">
         <h2>ParentsLoveYou(PLY) Campaign</h2>
         <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
