@@ -159,7 +159,15 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
                 </div></br></br>
             </p>
         </ol>
-        <h4>Additional Information</h4></br>
+        <!-- Alert -->
+        <div class="login-signup-alert">
+            <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+            Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+        </div>
+    <!-- end alert -->
+    <br><br>
+        <h1><u>Additional Information</u></h1>
         <div class="cookie-otherWeb">
         <h6>Cookies</h6></br>
             <p>
