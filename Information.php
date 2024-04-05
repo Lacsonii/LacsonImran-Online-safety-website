@@ -83,6 +83,13 @@
         <p>
             Creating a community where parents and teenagers collaborate to promote safer online behaviors and healthier</br>
             digital habits, fostering a culture of trust and resilience in the digital age.
+            <br><br>
+            <!-- alert -->
+            <div class="login-signup-alert">
+                    <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                    <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+                    Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+            </div>
         </p>
         
         <h3>Camapign Summary</h3>
@@ -186,6 +193,13 @@
                                 "My Safety My Pride" educates teens on online safety through <br>
                                 workshops and multimedia. Aimed at preventing cyberbullying, identity theft, and online <br>
                                 predators, it empowers teens to navigate the digital world responsibly.<br>
+                                <br><br>
+                                <!-- alert -->
+                                <div class="login-signup-alert">
+                                        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                                        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+                                        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+                                </div>
                             </p>
                         </div>
                     </div>
