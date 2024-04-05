@@ -1358,19 +1358,42 @@ iframe{
     width: 75%;
     margin: -370px 70px 0px 300px;
     border-radius: 15px;
+    padding: 30px;
+    overflow-y: scroll;
+}
+.info-site h1{
+    color: var(--contactform-color);
+    margin: 20px 0px 10px 0px;
+}
+.info-site h2{
+    color: var(--nav-color);
+    margin: 15px 0px 5px 10px;
+}
+.info-site .paragraph{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin: 0px 0px 20px 10px;
 }
 .btn-app{
     margin-left: 280px;
 }
+.info-site .paragraph a{
+    text-decoration: none;
+    color: blue;
+}
 .btn-app button{
     margin-left: 15px;
-    padding: 8px;
-    font-size: 15px;
+    padding: 4px;
+    font-size: 10px;
     font-weight: 700;
     border: 1px solid var(--nav-color);
     border-radius: 15px;
     background-color: transparent;
     cursor: pointer;
+}
+.btn-app a{
+    color: var(--nav-color);
 }
 .btn-app button:hover{
     background-color: var(--nav-color);
@@ -2071,7 +2094,7 @@ footer{
     width: 100%;
     background: var(--footer-color);
     color: var(--text-color);   
-    margin-top: 100px;
+    margin-top: 80px;
 }
 footer .about-text{
     position: absolute;
