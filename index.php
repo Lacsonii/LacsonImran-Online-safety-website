@@ -9,6 +9,8 @@
     <!-- Boxicons CSS -->
 <link href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 <!-- === navigation-bar text === -->
@@ -62,7 +64,7 @@
                 </div>
 
                 <div class = "search-field">
-                    <input type ="text" placeholder = "Search...">
+                    <input type ="text" id="myInput" placeholder = "Search...">
                     <i class='bx bx-search'></i>
                 </div>
             </div>
@@ -113,6 +115,7 @@
 <div class="index-bar">
     
 </div>
+<div id="myDIV">
 <!-- How to stay online texts -->
 <div class="how-to-stay-safe">
     <h1>How to Stay safe Online</h1></br>
@@ -175,6 +178,13 @@
             <a href="https://edu.gcfglobal.org/en/facebook101/what-is-facebook/1/">Read more</a></br>
         </p>
     </div>
+    <!-- Alert -->
+    <div class="login-signup-alert">
+        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div>
+    <!-- end alert -->
     <div class="x-twitter">
             <h2>About X(Formaly twitter)&nbsp;&nbsp;<i class="fa-brands fa-square-x-twitter"></i></h2>
         <p>
@@ -218,6 +228,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/fhLxgQfUtKI?si=FKVSpNN7zaE2N8E4" 
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </div>
 <!-- End Popular social media application -->
 <footer>
