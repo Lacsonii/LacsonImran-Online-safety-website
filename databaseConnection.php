@@ -29,11 +29,11 @@ $IDtype  = isset($_POST["IDtype"]) ? $_POST["IDtype"] : ""; // Use isset() to ch
 $IDNumber = $_POST["IDNumber"];
 $UploadImage = $_POST["UploadImage"];
 $Gender = $_POST["Gender"];
-$DateOfBirth = $_POST["DateOfBirth"];
-$password = $_POST["Password"];
+$DateOfBirth = $_POST["dateOfBirth"];
+$password = $_POST["password"];
 
 // Prepare and execute SQL query to insert into 'users' table
-$userQuery = "INSERT INTO webusers VALUES ('$Username', '$password')";
+$userQuery = "INSERT INTO webusers VALUES ('$Username', '$password', 2,)";
 $retUsers = mysqli_query($conn, $userQuery);
 
 // Prepare and execute SQL query to insert into 'details' table
