@@ -9,7 +9,9 @@
     <!-- Boxicons CSS -->
 <link href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
 </head>
 <body>
 <!-- === navigation-bar text === -->
@@ -49,7 +51,7 @@
                 </div>
 
                 <div class = "search-field">
-                    <input type ="text" placeholder = "Search...">
+                    <input type ="text" id="myInput" placeholder = "Search..." required>
                     <i class='bx bx-search'></i>
                 </div>
             </div>
@@ -63,7 +65,7 @@
     <h1>Let's get you updated with latest tips and topic.</h1>
     <p>Search for more tips and read carefully.</p>
     <div class="app-question">
-        <input type="search" placeholder="Search....">
+        <input type="search" id="myInput" placeholder="Search...." required>
         <i class="fa-solid fa-magnifying-glass"></i>
     </div>
     </div>
@@ -76,14 +78,13 @@
 <div class="learning-news">
         <h1>Want to keep on learning about Online safety?</h1>
         <p>
-            Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!
-            <input type="text" placeholder="Email...*">
-            <button>Subscribe</button>
+            Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!<br><br><br>
+            <button><a href="Subscribe.php">Subscribe</a></button>
         </p>
     </div>
 <div class="info-site">
     <h1>Topic: Ensuring Teenager Safety Online</h1>
-    <p>
+    <p id="myDIV">
         <h2>Cyberbullying Prevention Strategies:</h2> <p class="paragraph">Cyberbullying remains a pervasive threat to teenagers' mental health and 
         well-being. Discuss effective prevention strategies, such as fostering a supportive online community, 
         promoting empathy, and implementing reporting systems on social media platforms.</p>
@@ -120,11 +121,12 @@
         <h2>Media Literacy and Critical Thinking:</h2> <p class="paragraph">In an era of rampant misinformation, teenagers need skills to 
         critically evaluate online content. Discuss strategies for teaching media literacy, fact-checking 
         techniques, and recognizing bias to empower teenagers.</p>
-
-
     </p>
+    <!-- <div class="classimage">
+        <img src ="images/world.jpg" alt ="pictureSafe">
+    </div> -->
     <h1>Topic: Building Healthy Digital Habits</h1>
-    <p>
+    <p id="myDIV">
         <h2>Mindful Social Media Use:</h2> <p class="paragraph">Social media platforms offer opportunities for connection and self-expression, 
         but they can also foster feelings of inadequacy and anxiety. Teaching teenagers to use social media mindfully, 
         cultivate genuine connections, and recognize the impact of their online interactions on their well-being 
@@ -152,7 +154,7 @@
         Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
     </div>
     <h1 Id = "most-popular">Most Popular Topics</h1>
-    <p>
+    <p id="myDIV">
         <h2>Cyberbullying Awareness:</h2> <p class="paragraph">Teach teens to recognize and report cyberbullying, empowering them to 
         combat it effectively and seek support.</p>
 
@@ -187,7 +189,7 @@
     </div>
     <!-- end alert -->
 </div>
-
+</div>
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
