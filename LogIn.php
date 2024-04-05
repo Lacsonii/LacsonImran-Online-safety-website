@@ -94,7 +94,7 @@
 <!-- === end navigation-bar text === --> 
 
 <!-- === Log In form === -->
-<form action = "" method ="POST" class="form-login">
+<form action = "LogIn.php" method ="POST" class="form-login">
     <div class = "LogIn-form">
       <h1>Sign In</h1>
       <?php if(isset($_SESSION["error"])) {?>
@@ -103,12 +103,12 @@
 
         <div class = "LogIn-element">
             <lable for = "Username">Username</lable>
-            <input type = "text" id = "email" placeholder = "username or email" name = "Username">
+            <input type = "text" id = "email" placeholder = "username or email" name = "Username" required>
         </div>
 
         <div class = "LogIn-element">
             <lable for = "password">Password</lable>
-            <input type = "password" id = "password" placeholder = "password" name = "Password">
+            <input type = "password" id = "password" placeholder = "password" name = "Password" required>
             <input type="checkbox" onclick="Function()">Show Password
         </div>
 
