@@ -46,7 +46,7 @@
     </div>
   </nav>
 <!-- === End nav === -->
-    <form class = "subscribe"> 
+    <form class = "subscribe" action ="subscribers.php" method="POST"> 
         <div class = "sub">
             <img src = "images/newslatter.png" alt = "newslatter Icon">
             <p>Subscribe to communications and monthly Newsletters<br>from SMC.</p>
@@ -54,7 +54,7 @@
         <div class="subscribe-security">
         <p>For your security, we'll email a link to a page where you can<br> 
         subscribe to communications and monthly Newsletters from SMC.</p><br>
-        Email<input type = "text" placeholder= "Required"><br>
+        Email<input type = "text" placeholder= "Required" name = "EmailAddress" required><br>
         <button class = "subscribe-btn" value = "sendLink">Send me the Link</button>
       </div>
       <div class="subscribe-footer">
