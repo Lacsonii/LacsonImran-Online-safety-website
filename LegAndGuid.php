@@ -213,6 +213,13 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
             </li>
         </ul>
     </p>
+    <!-- alert -->
+    <div class="login-signup-alert">
+        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div>
+    <!-- end alert -->
     <h1>Run Social Media Campaigns and Contests</h1>
     <p class = "guide-p">
         <ul>
@@ -264,6 +271,7 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
         </ul>
     </p>
 </div>
+
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
