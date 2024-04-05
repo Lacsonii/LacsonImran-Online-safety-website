@@ -106,12 +106,34 @@ function Function()
     
     $(document).ready(function(){
       $("#myInput").on("keyup", function() {
-        var value = $(this).val().toLowerCase();
-        $("#myDIV *").filter(function() {
-          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
+          var value = $(this).val().toLowerCase();
+          $("#myDIV").find("*").contents().each(function() {
+              if (this.nodeType === 3) {
+                  var text = $(this).text();
+                  var highlightedText = text.replace(new RegExp(escapeRegExp(value), "gi"), function(match) {
+                      return "<span class='highlight'>" + match + "</span>";
+                  });
+                  $(this).replaceWith(highlightedText);
+              }
+          });
+          
+          // Scroll to the first highlighted result
+          var firstHighlightedResult = $(".highlight").first();
+          if (firstHighlightedResult.length > 0) {
+              $("html, body").animate({
+                  scrollTop: firstHighlightedResult.offset().top
+              }, 500);
+          }
       });
-    });
+  });
+  
+  // Function to escape regular expression special characters
+  function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  
+  
+  
 
 
     
