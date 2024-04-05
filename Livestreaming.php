@@ -157,8 +157,14 @@
         Gatos, a distance of 3,000 miles, buffering or playback failures may occur. To address this, streaming<br>  
         providers like Netflix rely on distributed content delivery networks (CDNs) <br> 
         to store content closer to users globally, ensuring smoother and more reliable <a href ="#section-1">streaming</a> experiences.<br> 
-    </p>
-
+    </p><br><br>
+    <!-- alert -->
+    <div class="login-signup-alert">
+            <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+            Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div>
+    <!-- end alert -->
     <h1 id = "section-2">What Is Live streaming?</h1>
     <img src ="images/whatIsImage.png" alt ="LiveStreamImage"><br>
     <p>
@@ -208,7 +214,13 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Lpca3EGLYJI?si=jtZgRNr9giev8Cgs" title="YouTube video player" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+        <br><br>
+        <!-- alert -->
+        <div class="login-signup-alert">
+                <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+                Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+        </div>    
 </div>
  <!-- live streaming embeded video -->
  <div class="video">
