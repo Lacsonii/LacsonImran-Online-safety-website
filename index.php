@@ -217,8 +217,17 @@
 </div>
 <div class="play-fun">
     <h1>Play fun and test your typing skills</h1>
-    <a href="https://10fastfingers.com/typing-test/english"><img src="http://img.10fastfingers.com/badge/typing-test_1_AN.png" alt="Typing Test" /></a><p>Visit the <a href="https://10fastfingers.com/typing-test/english">Typing Test</a> and try!</p>
-</div>
+    <a href="https://10fastfingers.com/typing-test/english"><img src="http://img.10fastfingers.com/badge/typing-test_1_AN.png" 
+    alt="Typing Test" /></a><p>Visit the <a href="https://10fastfingers.com/typing-test/english">Typing Test</a> and try!</p>
+    <br><br>
+    <!-- Alert -->
+    <div class="login-signup-alert">
+                    <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                    <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+                    Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+                </div>
+        <!-- end alert -->
+    </div>
 
 <div class="popular">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MB5VDIebMd8?si=Lff96cWWiGhKE2Aa" 
