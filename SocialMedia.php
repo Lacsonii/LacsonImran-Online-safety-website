@@ -69,9 +69,9 @@
     </div>
 </div>
 <div class="btn-app">
-    <button>Updates</button>
-    <button>Most Popular</button>
-    <button>blog Posts</button>
+    <button><a href="#updates">Updates</a></button>
+    <button><a href="#most-popular">Most Popular</a></button>
+    <button><a href="#blogs">blog Posts</a></button>
 </div>
 <div class="learning-news">
         <h1>Want to keep on learning about Online safety?</h1>
@@ -82,13 +82,112 @@
         </p>
     </div>
 <div class="info-site">
-<form class="SocialMedia-form">
-    <input type="text" value="">
-    <input type="text" value="">
-    <textarea></textarea>
-    <input type="text" value="">
-</form>
+    <h1>Topic: Ensuring Teenager Safety Online</h1>
+    <p>
+        <h2>Cyberbullying Prevention Strategies:</h2> <p class="paragraph">Cyberbullying remains a pervasive threat to teenagers' mental health and 
+        well-being. Discuss effective prevention strategies, such as fostering a supportive online community, 
+        promoting empathy, and implementing reporting systems on social media platforms.</p>
+
+        <h2>Navigating Social Media:</h2> <p class="paragraph">With the proliferation of social media platforms, teenagers face challenges in managing
+        their online presence responsibly. Explore strategies for educating teenagers on privacy settings, critical thinking 
+        skills, and the potential consequences of sharing personal information online.</p>
+
+        <h2>Online Predators Awareness:</h2> <p class="paragraph">The internet exposes teenagers to potential risks from online predators 
+        who exploit vulnerabilities in social networks. Shed light on warning signs of grooming behavior,
+        strategies for maintaining boundaries, and resources available for seeking help or 
+        reporting suspicious activities.</p>
+
+        <h2>Digital Citizenship Education:</h2> <p class="paragraph">Empowering teenagers with digital citizenship skills is crucial for fostering
+        responsible online behavior. Discuss the importance of teaching ethical conduct, digital literacy, and the 
+        impact of online actions on oneself and others.</p>
+
+        <!-- Alert -->
+        <div class="login-signup-alert">
+            <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+            Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+        </div>
+        <!-- end alert -->
+
+        <h2>Mental Health Support Online:</h2> <p class="paragraph">Teenagers often turn to the internet for support and information regarding
+        mental health issues. Explore the role of online communities, resources, and helplines in providing assistance, 
+        while also addressing the importance of discerning reliable sources and seeking professional help when needed.</p>
+
+        <h2>Online Privacy and Security:</h2> <p class="paragraph">Teenagers may not fully grasp the importance of safeguarding their online
+        privacy and security. Provide practical tips for protecting personal information, recognizing online 
+        threats such as phishing scams, and using secure passwords and authentication methods.</p>
+
+        <h2>Media Literacy and Critical Thinking:</h2> <p class="paragraph">In an era of rampant misinformation, teenagers need skills to 
+        critically evaluate online content. Discuss strategies for teaching media literacy, fact-checking 
+        techniques, and recognizing bias to empower teenagers.</p>
+
+
+    </p>
+    <h1>Topic: Building Healthy Digital Habits</h1>
+    <p>
+        <h2>Mindful Social Media Use:</h2> <p class="paragraph">Social media platforms offer opportunities for connection and self-expression, 
+        but they can also foster feelings of inadequacy and anxiety. Teaching teenagers to use social media mindfully, 
+        cultivate genuine connections, and recognize the impact of their online interactions on their well-being 
+        promotes positive digital habits.</p>
+
+        <h2>Balancing Screen Time and Well-being:</h2> <p class="paragraph">Excessive screen time can negatively impact teenagers' 
+        physical and mental well-being. Offer guidance on establishing healthy screen time habits, 
+        promoting offline activities, and fostering open communication within families 
+        regarding technology use.</p>
+
+        <h2>Cyber Wellness Education:</h2> <p class="paragraph">Comprehensive cyber wellness education equips teenagers with the knowledge 
+        and skills to navigate online risks confidently. Topics such as digital citizenship, online etiquette, and 
+        self-care strategies empower teenagers to make informed choices and advocate for their 
+        well-being in the digital realm.</p>
+
+        <h2>Digital Detox Practices:</h2> <p class="paragraph">Periodic digital detoxes can help teenagers recalibrate their relationship 
+        with technology and prioritize offline experiences. Encouraging activities such as outdoor recreation, 
+        creative pursuits, and face-to-face interactions fosters a healthy balance between 
+        the virtual and real worlds.</p>
+    </p>
+    <!-- Alert -->
+    <div class="login-signup-alert">
+        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div>
+    <h1 Id = "most-popular">Most Popular Topics</h1>
+    <p>
+        <h2>Cyberbullying Awareness:</h2> <p class="paragraph">Teach teens to recognize and report cyberbullying, empowering them to 
+        combat it effectively and seek support.</p>
+
+        <h2>Privacy Protection:</h2> <p class="paragraph">Stress the importance of adjusting privacy settings and limiting personal 
+        information shared online to safeguard against misuse.</p>
+
+        <h2>Online Predators Awareness:</h2> <p class="paragraph">Educate teens on recognizing and avoiding online predators, 
+        fostering open communication about suspicious interactions.</p>
+
+        <h2>Digital Footprint Management:</h2> <p class="paragraph">Highlight the lasting impact of online actions and encourage 
+        responsible behavior to protect future opportunities.</p>
+
+        <h2>Safe Social Media Usage:</h2> <p class="paragraph">Provide guidance on responsible social media use, including avoiding 
+        interactions with strangers and verifying accounts.</p>
+
+        <h2>Online Scam Awareness:</h2> <p class="paragraph">Educate teens about common online scams to help them recognize 
+        and avoid fraudulent schemes.</p>
+
+        <h2>Critical Thinking Skills:</h2> <p class="paragraph">Teach teens to evaluate online information critically, discerning 
+        credible sources and questioning content responsibly.</p>
+    </p>
+
+    <h1 Id = "blogs">Blogs</h1>
+    <p class="paragraph">No blog post available now. Please keep intouch and visit the site again. 
+    You can please <a href="Subscribe.php">Subscribe to SMC Newslatters.</a>
+
+    <!-- Alert -->
+    <div class="login-signup-alert">
+        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div>
+    <!-- end alert -->
 </div>
+
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
