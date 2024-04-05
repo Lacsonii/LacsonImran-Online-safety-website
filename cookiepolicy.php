@@ -82,7 +82,13 @@
         advertisements based on your interests.
         </li>
     </ul>
-
+    <!-- Alert -->
+    <div class="login-signup-alert">
+        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div><br><br>
+    <!-- end alert -->
     <h2>Your Cookie Choices</h2>
     <p>
         You have the option to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually <br>
@@ -107,7 +113,7 @@
         If you have any questions or concerns about our Cookie Policy or the use of cookies on our website,<br> 
         please contact us at <a href="#">contact@smc.com.</a><br><br><br><br>
     </p>
-    <p>Last Updated: 31/03/2024</p>
+    <p><u>Last Updated: 31/03/2024</u></p>
 
 </div>
 <!-- === end Login pop-up text === -->
