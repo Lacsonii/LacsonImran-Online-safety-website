@@ -45,7 +45,7 @@
     </div>
   </nav>
 <!-- === End nav === -->
-    <form class = "subscribe unsubscribe"> 
+    <form class = "subscribe unsubscribe" action="Unsubscribe.php" method="POST"> 
         <div class = "sub">
             <img src = "images/unsubscribe.png" alt = "newslatter Icon"><br>
             <h1>Unsubscribe</h1>
@@ -56,7 +56,7 @@
             from us, simply click unsubscribe button.<br><br>
         </p>
         Email<input type = "text" placeholder= "Enter the email address to remove" requred><br>
-        <button class = "subscribe-btn unsubscribe-btn" value = "sendLink">Unsubscribe</button>
+        <button class = "subscribe-btn unsubscribe-btn" value = "unsubscribe">Unsubscribe</button>
       </div>
       <div class="subscribe-footer">
         <h1 class = "smc">SMC</h1><div class="line">
