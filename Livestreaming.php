@@ -89,11 +89,11 @@
     <div class="learning-news">
         <h1>Want to keep on learning about Online safety?</h1>
         <p>
-            Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!
-            <input type="text" placeholder="Email...*">
-            <button>Subscribe</button>
+            Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!<br><br><br>
+            <button><a href="Subscribe.php">Subscribe</a></button>
         </p>
     </div>
+    </form>
    </div>
 <div class="overview-site">
     <h1 id = "section-1">What Is streaming?</h1>
