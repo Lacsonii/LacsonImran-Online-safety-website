@@ -91,6 +91,13 @@
         <p>
             For all general questions about SMC, email <a href="#">general-smc@smc.org.</a></br></br>
         </p>
+        <!-- Alert -->
+        <div class="login-signup-alert">
+            <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+            Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+    </div>
+    <!-- end alert -->
 </div>
 <!-- end body -->
 <footer>
