@@ -115,9 +115,10 @@
 <div class="index-bar">
     
 </div>
-<div id="myDIV">
+
 <!-- How to stay online texts -->
 <div class="how-to-stay-safe">
+<div id="myDIV">
     <h1>How to Stay safe Online</h1></br>
     <img src ="images/safe-online.png" alt ="pictureSafe">
         <ul>
