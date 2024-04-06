@@ -128,10 +128,10 @@
 <div class="comment-box">
     <h1>Add your comment</h1>
     <div class="comment-text">
-        <textarea></textarea>
+        <textarea id="new-comment-textarea"></textarea>
     </div>
     <div class="comment-text-btn">
-        <button>Comment</button>
+        <button onclick="addComment()">Comment</button>
     </div>
     <div class="profile-comment">
         <i class="fa-solid fa-user"></i>
