@@ -1628,7 +1628,7 @@ textarea.input{
     font-size: 30px;
     margin-left: 160px;
 }
-.comment-box{
+/* .comment-box{
     margin-top: 15px;
     border: 1px solid var(--nav-color);
     width: 80%;
@@ -1686,7 +1686,7 @@ textarea.input{
 }
 .comment-box .behavior-icons i:hover{
     color: red;
-}
+} */
 /* === end contact form === */
 
 /* === Parental Help === */
@@ -1756,11 +1756,14 @@ textarea.input{
     height: 1000px;
     border: 1px solid var(--nav-color);
     border-radius: 15px;
-    margin: 2% 5% 0 10%;
+    margin: 2% 5% 10% 10%;
+    padding-bottom: 5%;
     width: 80%;
+    overflow-y: scroll;
 }
 .star-icon-textarea{
     margin: 3% 0 0 9%;
+    float: left;
 }
 .review-box .star{
     color: var(--labl-color);
