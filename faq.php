@@ -69,15 +69,90 @@
 </div>
 <div class="faq-box">
     <div class="QandA">
-        <h1>What is SMC?</h1>
-        <h1>Why should teenagers be safe online?</h1>
-        <h1>What is the purpose of this campaign?</h1>
-        <h1>Why should I follow everything about SMC?</h1>
-        <h1>How Safe will teenagers be if they adhere to SMC?</h1>
-        <h1>What is the role of a parent?</h1>
-        <h1>What is Internet and Security?</h1>
-
-    </div>
+        <h2>What is SMC?</h2>
+        <p>
+            SMC stands for Social Media for Teenager Safety. It's likely a campaign or initiative 
+            focused on promoting safe and responsible use of social media among teenagers.
+        </p>
+        <h2>Why should teenagers be safe online?</h2>
+        <p>
+            Teenagers should be safe online because the internet can present various risks, 
+            including cyberbullying, exposure to inappropriate content, online predators, 
+            and privacy breaches. Ensuring safety online helps protect teenagers from 
+            these potential dangers and promotes healthy digital habits.
+        </p>
+        <h2>What is the purpose of this campaign?</h2>
+        <p>
+            The purpose of the SMC campaign is likely to raise awareness about online safety 
+            among teenagers, educate them about potential risks associated with social 
+            media use, and provide tips and resources for staying safe online.
+        </p>
+        <h2>Why should I follow everything about SMC?</h2>
+        <p>
+            Following the guidelines and recommendations of the SMC campaign can help teenagers 
+            navigate social media platforms safely, minimize risks, and enjoy a 
+            positive online experience.
+        </p>
+            
+        <h2>How Safe will teenagers be if they adhere to SMC?</h2>
+        <p>
+            Adhering to the principles and advice provided by the SMC campaign can 
+            significantly enhance teenagers' safety online by empowering them to 
+            make informed decisions, recognize potential dangers, and take 
+            appropriate precautions to protect themselves.
+        </p>
+        <h2>What is the role of a parent?</h2>
+        <p>
+            Parents play a crucial role in supporting their teenagers' online safety 
+            by providing guidance, setting rules and boundaries, monitoring their 
+            online activities, and fostering open communication about internet 
+            use and potential risks.
+        </p>
+        <h2>What is Internet and Security?</h2>
+        <p>
+            Internet security refers to measures taken to protect computer systems, 
+            networks, and data from unauthorized access, cyberattacks, and other 
+            online threats. It encompasses various strategies, such as using 
+            strong passwords, keeping software updated, being cautious of phishing 
+            attempts, and using security software like antivirus programs and firewalls.
+        </p>
+        <h2>What are some common online risks that teenagers may encounter on social media platforms?</h2>
+        <p>
+            Common online risks for teenagers on social media include cyberbullying, exposure to 
+            inappropriate content (such as violence or explicit material), interaction with 
+            online predators, privacy breaches, and addiction to social media.
+        </p>
+        <h2>How can teenagers identify and handle cyberbullying on social media platforms?</h2>
+        <p>
+            Teenagers can identify cyberbullying by recognizing signs such as receiving hurtful or 
+            threatening messages, being excluded from online groups, or experiencing a sudden 
+            change in behavior. Handling cyberbullying involves not responding to the bully, 
+            blocking or unfriending them, documenting the harassment, and reporting it to the 
+            social media platform and/or a trusted adult.
+        </p>
+        <h2>What are some practical tips for maintaining privacy and security on social media?</h2>
+        <p>
+            Practical tips for maintaining privacy and security on social media include setting 
+            privacy settings to restrict who can see your posts and personal information, being 
+            cautious about accepting friend requests or messages from strangers, avoiding 
+            sharing sensitive information such as passwords or home addresses, and 
+            regularly reviewing and adjusting privacy settings.
+        </p>
+        <h2>How can teenagers strike a balance between spending time online and offline activities?</h2>
+        <p>
+            Teenagers can strike a balance between online and offline activities by setting time 
+            limits for social media use, engaging in hobbies or activities that don't involve 
+            screens, scheduling tech-free times or zones (such as during meals or before bedtime), 
+            and prioritizing face-to-face interactions with friends and family.
+        </p>
+        <h2>What resources are available for teenagers and parents to learn more about online safety?</h2>
+        <p>
+            Resources for teenagers and parents include educational websites, online safety guides, 
+            workshops or seminars on digital literacy and online safety, hotlines or helplines for 
+            reporting online abuse or seeking support, and parental control tools and apps for 
+            monitoring and managing teenagers' online activities.
+        </p>
+    </div> 
 </div>
 <!-- === end Login pop-up text === -->
 <footer>
