@@ -153,6 +153,11 @@
         <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
         Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
     </div>
+    <div class="safety-safety">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fhLxgQfUtKI?si=FKVSpNN7zaE2N8E4" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
     <h1 Id = "most-popular">Most Popular Topics</h1>
     <p id="myDIV">
         <h2>Cyberbullying Awareness:</h2> <p class="paragraph">Teach teens to recognize and report cyberbullying, empowering them to 
@@ -176,7 +181,11 @@
         <h2>Critical Thinking Skills:</h2> <p class="paragraph">Teach teens to evaluate online information critically, discerning 
         credible sources and questioning content responsibly.</p>
     </p>
-
+<div class="safety-safety">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9VNHhxRTbSI?si=dpeEa21Yh6i27wZV" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
     <h1 Id = "blogs">Blogs</h1>
     <p class="paragraph">No blog post available now. Please keep intouch and visit the site again. 
     You can please <a href="Subscribe.php">Subscribe to SMC Newslatters.</a>
