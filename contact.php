@@ -125,7 +125,7 @@
 <div class="comments">
     <h1>Comments</h1>
 </div>
-<div class="comment-box">
+<!-- <div class="comment-box">
     <h1>Add your comment</h1>
     <div class="comment-text">
         <textarea id="new-comment-textarea"></textarea>
@@ -144,7 +144,7 @@
         <i class="fa-solid fa-heart"></i>
         <i class="fa-solid fa-thumbs-down"></i>
     </div> 
-</div>
+</div> -->
 <footer>
 <div class="you-are-here">
             <ul>
