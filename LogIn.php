@@ -1,38 +1,3 @@
-<?php 
-
-    session_start();
-
-    if ($_SERVER["REQUEST_METHOD"] == "POST")
-    {
-        $username = $_POST["Username"];
-        $password = $_POST["Password"];
-
-        $host = "localhost";
-        $userID = "root";
-        $pass = "";
-        $dbname = "smc_limited";
-
-        $conn = mysqli_connect($host, $userID,$pass,$dbname);
-        $result = mysqli_query($conn, "SELECT * FROM webusers WHERE username ='$username'");
-
-        if(mysqli_num_rows($result) > 0)
-        {
-            $row = mysqli_fetch_object($result);
-
-            if(password_verify($password, $row->password))
-            {
-
-            }
-            else{
-                $_SESSION["error"] = "Wrong password";
-            }
-        }
-        else{
-            $_SESSION["error"] = "Username does not exist";
-        }
-    }
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,7 +59,7 @@
 <!-- === end navigation-bar text === --> 
 
 <!-- === Log In form === -->
-<form action = "LogIn.php" method ="POST" class="form-login">
+<form action = "authentication.php" method ="POST" class="form-login">
     <div class = "LogIn-form">
       <h1>Sign In</h1>
       <?php if(isset($_SESSION["error"])) {?>
