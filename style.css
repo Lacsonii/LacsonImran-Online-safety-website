@@ -138,17 +138,17 @@ nav .nav-bar .sidebarOpen{
     visibility: hidden;
 }
 
-.links .Dropdown li:hover{
+.menu-links .Dropdown li:hover ul,
+.menu-links .Dropdown-live li:hover ul{
     text-decoration: none;
     visibility: visible;
     opacity: 1;
-    
 }
 .Dropdown-live{
     width: 15%;
     padding: 2px;
     top: 70px;
-    left: 490px;
+    left: 470px;
     position: absolute;
     background-color: var(--nav-color);
     border-radius: 0px 0px 5px 5px;
@@ -156,11 +156,6 @@ nav .nav-bar .sidebarOpen{
     opacity: 0;
     z-index: -1;
     visibility: hidden;
-}
-.links .Dropdown-live li:hover {
-    text-decoration: none;
-    visibility: visible;
-    opacity: 1;
 }
 /* End Dropdown" */
 
@@ -1979,12 +1974,21 @@ textarea.input{
     height: 800px;
     margin: 50px 40px 0px 100px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
+    overflow-y: scroll;
 }
-.QandA h1{
+.QandA{
+    padding: 10px 10px 50px 10px;
+}
+.QandA h2{
     color: var(--contactform-color);
     font-size: 25px;
-    margin: 35px 0px 10px 100px;
+    margin: 40px 0px 10px 100px;
+}
+.QandA p{
+    margin: 10px 0px 0px 100px;
+    font-size: 20px;
+    initial-letter: 0.5px;
 }
 .search-question{
     margin: 60px 0px 0px 850px;
