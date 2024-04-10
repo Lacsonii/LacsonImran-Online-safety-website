@@ -79,15 +79,72 @@
 </div>
 <div class="review-box">
     <div class="star-icon-textarea">
-    <i class="fa-solid fa-user"></i>
-    <i class="fa-solid fa-star star"></i>
-    <i class="fa-solid fa-star star"></i>
-    <i class="fa-solid fa-star star"></i>
-    <i class="fa-solid fa-star star"></i>
-    <i class="fa-solid fa-star star"></i>
-    <textarea></textarea>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea></textarea>
     </div>
 </div>
+
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
