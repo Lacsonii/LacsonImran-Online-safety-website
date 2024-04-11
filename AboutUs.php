@@ -96,6 +96,7 @@
             safety and well-being.
         </li>
     </ul>
+    
     <h1>Our Values</h1>
     <ul>
         <li>
@@ -123,7 +124,16 @@
         keeping your child safe online, we invite you to join us in our mission. Together, we can create a 
         safer, more positive online environment for teenagers everywhere.Join the SMC community 
         today and let's navigate the digital world together!
-    </p>
+    </p><br><br><br>
+
+    <!-- Alert -->
+    <div class="login-signup-alert">
+                    <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                    <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+                    Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+                </div>
+        <!-- end alert -->
+    </div>
 </div>
 <!-- === end Login pop-up text === -->
 <footer>
