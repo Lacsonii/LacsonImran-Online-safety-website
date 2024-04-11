@@ -1628,65 +1628,32 @@ textarea.input{
     font-size: 30px;
     margin-left: 160px;
 }
-/* .comment-box{
-    margin-top: 15px;
-    border: 1px solid var(--nav-color);
-    width: 80%;
-    height: 1100px;
-    border-radius: 0px 15px 0px 15px;
-    margin-left: 170px;
+.user-comment{
+    margin: 20px 0px 20px 250px;
 }
-.comment-box h1{
-    margin: 10px 150px;
-    font-size: 30px;
-}
-.comment-text textarea{
-    resize: none;
-    width: 80%;
-    height: 80px;
-    border-radius: 0px 15px 0px 15px;
-    border: 1px solid var(--nav-color);
-    margin: 1px 150px;
-    font-weight: 500;
-    font-size: 0.95rem;
-    letter-spacing: 0.5px;
+.user-comment .input-text{
     padding: 10px;
-}
-.comment-text-btn button{
-    background-color: var(--nav-color);
-    color: var(--text-color);
-    border-radius: 10px 0px 10px 0px;
-    padding: 5px;
-    cursor: pointer;
-    margin-left: 86.6%;
-}
-.comment-text-btn button:hover{
-    background-color: transparent;
-    color: var(--nav-color);
-}
-.profile-comment{
-    display: flex;
-    margin-left: 150px;
-    margin-top: 25px;
-}
-.profile-comment i{
-    margin-right: 15px;
-}
-.profile-comment textarea{
-    width: 85%;
-    height: 60px;
-    resize: none;
-    padding: 10px;
+    outline: none;
+    border: 1.5px solid var(--contactform-color);
+    height: auto;
+    width: 550px;
     border-radius: 5px;
+    letter-spacing: 0.5px;
 }
-.comment-box .behavior-icons{
-    margin-left: 80%;
+.user-comment .input-submit{
+    background-color: var(--contactform-color);
+    color: var(--text-color);
     padding: 5px;
+    font-size: 18px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
     cursor: pointer;
 }
-.comment-box .behavior-icons i:hover{
-    color: red;
-} */
+.user-comment .input-submit:hover{
+    transform: scale(1.05);
+}
+    
 /* === end contact form === */
 
 /* === Parental Help === */
@@ -2187,6 +2154,7 @@ footer .footer i{
 }
 footer .footer i:hover{
     color: var(--Inputpopup-color);
+    transform: scale(1.05);
 }
 
 footer .footer{
@@ -2273,6 +2241,7 @@ button a{
 button a:hover{
     background-color: transparent;
     color: var(--text-color);
+    
 }
 /* === end footer style === */
 
