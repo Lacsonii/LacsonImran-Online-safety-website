@@ -125,26 +125,12 @@
 <div class="comments">
     <h1>Comments</h1>
 </div>
-<!-- <div class="comment-box">
-    <h1>Add your comment</h1>
-    <div class="comment-text">
-        <textarea id="new-comment-textarea"></textarea>
-    </div>
-    <div class="comment-text-btn">
-        <button onclick="addComment()">Comment</button>
-    </div>
-    <div class="profile-comment">
-        <i class="fa-solid fa-user"></i>
-        <textarea></textarea>
-    </div>
-    <div class="behavior-icons">
-        <i class="fa-solid fa-pen-to-square behavior"></i>
-        <i class="fa-solid fa-trash behavior"></i>
-        <i class="fa-solid fa-reply"></i>
-        <i class="fa-solid fa-heart"></i>
-        <i class="fa-solid fa-thumbs-down"></i>
-    </div> 
-</div> -->
+<!-- user comment section -->
+<div class="user-comment">
+    <input type="text" name="comment" placeholder="Add comment...." class = "input-text">
+    <input type="submit" value="comment" class = "input-submit">
+</div>
+<!-- end user comment section -->
 <footer>
 <div class="you-are-here">
             <ul>
