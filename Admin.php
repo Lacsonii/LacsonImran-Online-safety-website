@@ -85,7 +85,7 @@
     </div>
 
     <div class="admin-links">
-        <a href="">Account Help</a>&nbsp;|&nbsp;<a href="Subscribe.php">Subscriptions</a>&nbsp;|&nbsp;<a href="Unsubscribe.php">Unsubscribe</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
+        <a href="AccountHelp.php">Account Help</a>&nbsp;|&nbsp;<a href="Subscribe.php">Subscriptions</a>&nbsp;|&nbsp;<a href="Unsubscribe.php">Unsubscribe</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use and Privacy</a>&nbsp;|&nbsp;<a href="cookiepreference.php">Cookie Preferences</a>
       </div>
     </form>
 
