@@ -138,8 +138,8 @@ nav .nav-bar .sidebarOpen{
     visibility: hidden;
 }
 
-.menu-links .Dropdown li:hover ul,
-.menu-links .Dropdown-live li:hover ul{
+.menu-links .Dropdown:hover,
+.menu-links .Dropdown-live:hover {
     text-decoration: none;
     visibility: visible;
     opacity: 1;
@@ -1161,6 +1161,30 @@ iframe{
 }
 /* === End Livestreaming (Live) Page style === */
 
+/* === About Us === */
+.aboutus{
+    margin: 80px 20px 0px 100px;
+    padding: 50px;
+}
+.aboutus h1{
+    color: var(--contactform-color);
+    margin: 50px 0px 10px 0px;
+}
+.aboutus li{
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.aboutus li::marker{
+    color: var(--labl-color);
+}
+.aboutus p{
+    font-size: 25px;
+    font-weight: 300;
+}
+/* === End About us === */
+
 /* === Legislation and Guideline page === */
 .legNg{
     background-color:  lightblue;
@@ -1740,9 +1764,12 @@ textarea.input{
 .review-box textarea{
     display: flex;
     resize: none;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 390px;
     border-radius: 15px;
+    font-size: 13px;
+    padding-top: 10px;
+    
 }
 /* === end reviews === */
 
