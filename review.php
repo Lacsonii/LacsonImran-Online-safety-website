@@ -85,31 +85,16 @@
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
-    </div>
+        <textarea>
+        Lacson Imran
 
-    <div class="star-icon-textarea">
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-star star"></i>
-        <i class="fa-solid fa-star star"></i>
-        <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
-    </div>
-
-    <div class="star-icon-textarea">
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-star star"></i>
-        <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
-    </div>
-
-    <div class="star-icon-textarea">
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-star star"></i>
-        <i class="fa-solid fa-star star"></i>
-        <i class="fa-solid fa-star star"></i>
-        <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
+        
+        "Thanks to the SMC campaign, I now have the tools 
+        to ensure my teenager's safety online. The 
+        campaign's practical advice and resources make it 
+        easy for parents like me to navigate the digital 
+        landscape and protect our kids. 5/5 stars!"
+        </textarea>
     </div>
 
     <div class="star-icon-textarea">
@@ -118,8 +103,16 @@
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
-        <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
+        <textarea>
+        Neepher
+
+        
+        "SMC campaign helped me understand the importance of 
+        being cautious online. It's not just about having 
+        fun but also about staying safe. The campaign's 
+        tips are easy to implement and have made a big 
+        difference in my online experience. 4/5 stars!"
+        </textarea>
     </div>
 
     <div class="star-icon-textarea">
@@ -127,13 +120,36 @@
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
+        <i class="fa-solid fa-star star"></i>
+        <textarea>
+            Berna 
+
+
+            "The SMC campaign is a must-follow for every 
+            teenager! It's packed with insightful tips on 
+            how to stay safe while still enjoying social 
+            media. The campaign's emphasis on responsible 
+            online behavior is commendable. 4/5 stars!"
+        </textarea>
     </div>
 
     <div class="star-icon-textarea">
         <i class="fa-solid fa-user"></i>
         <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea>
+        ConcernedParent77
+
+
+        "I'm grateful for the SMC campaign for providing 
+        crucial information on how to protect my teenager online. 
+        The campaign helped me understand the potential 
+        risks and how to address them effectively. 
+        Highly recommend! 5/5 stars!"
+        </textarea>
     </div>
 
     <div class="star-icon-textarea">
@@ -141,7 +157,73 @@
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
         <i class="fa-solid fa-star star"></i>
-        <textarea></textarea>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea>
+            DigitalGuardian
+
+
+            "SMC campaign deserves praise for its efforts 
+            in promoting online safety among teenagers. The 
+            campaign's comprehensive approach covers various 
+            aspects of online security and privacy, making it an 
+            invaluable resource for both teenagers 
+            and parents. 5/5 stars!"
+        </textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea>
+        Harry Kachigamba
+
+
+        "I'm impressed by the SMC campaign's dedication to 
+        educating teenagers and parents about online safety. The 
+        campaign's tips are practical and easy to understand, 
+        making it accessible for everyone. Keep up the 
+        great work! 3/5 stars!"
+        </textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea>
+        TechTeen
+
+
+        "As a teenager who spends a lot of time online, I 
+        appreciate the SMC campaign for raising awareness 
+        about online safety. The campaign's resources and 
+        recommendations are valuable for both teenagers 
+        and parents. 4/5 stars!"
+        </textarea>
+    </div>
+
+    <div class="star-icon-textarea">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <i class="fa-solid fa-star star"></i>
+        <textarea>
+            Sarah123
+
+
+            "The SMC campaign has been incredibly helpful in 
+            guiding me on how to stay safe while using social media. 
+            The tips provided were practical and easy to follow. 
+            I feel much more confident navigating the online 
+            world now. 5/5 stars!"
+        </textarea>
     </div>
 </div>
 
