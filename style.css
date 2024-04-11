@@ -1164,7 +1164,7 @@ iframe{
 /* === About Us === */
 .aboutus{
     margin: 80px 20px 0px 100px;
-    padding: 50px;
+    padding: 20px;
 }
 .aboutus h1{
     color: var(--contactform-color);
@@ -1184,6 +1184,38 @@ iframe{
     font-weight: 300;
 }
 /* === End About us === */
+
+/* === Account help === */
+
+.Accounthelp{
+    margin: 80px 20px 0px 100px;
+    padding: 20px;
+}
+.Accounthelp h1{
+    color: var(--contactform-color);
+    margin: 50px 0px 10px 0px;
+}
+.Accounthelp li{
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 23px;
+    font-weight: 300;
+}
+.Accounthelp li::marker{
+    color: var(--labl-color);
+}
+.Accounthelp p{
+    font-size: 23px;
+    font-weight: 300;
+}
+.Accounthelp a{
+    text-decoration: none;
+    color: blue;
+}
+.Accounthelp a:hover{
+    text-decoration: underline 1px solid blue;
+}
+/* === end account help === */
 
 /* === Legislation and Guideline page === */
 .legNg{
