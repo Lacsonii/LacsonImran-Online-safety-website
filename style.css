@@ -2377,6 +2377,15 @@ button a:hover{
         display: block;
         padding:  10px;
     }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 100%;  
+        margin-top: 80px;
+    }
     footer .footer{
         position:block;
     }
@@ -2399,6 +2408,11 @@ button a:hover{
     .Address .address a{
         margin: 30px;
         margin-left: 15px;
+    }
+    footer .about-text{
+        position: absolute;
+        margin-left: -990px;
+        border: none;
     }
 }
 
