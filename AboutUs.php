@@ -57,7 +57,74 @@
     </div> 
 </nav>
 <!-- === end navigation-bar text === --> 
+<div class="aboutus">
+    <h1>About Us</h1>
+    <p>
+        Welcome to Social Media for Teenager Safety (SMC), where we're committed to fostering a safer 
+        online environment for teenagers. At SMC, we recognize the transformative power of 
+        social media in connecting individuals and communities worldwide. However, we also 
+        understand the potential risks and challenges that come with navigating the digital 
+        landscape, particularly for teenagers.
 
+        Our mission at SMC is to empower teenagers and parents with the knowledge, tools, 
+        and resources they need to navigate social media platforms safely and responsibly. 
+        We believe that by promoting awareness, providing guidance, and fostering open 
+        dialogue, we can help teenagers make informed decisions and 
+        build positive digital habits.
+    </p>
+    <h1>What We Offer</h1>
+    <ul>
+        <li>
+            <strong>Educational Resources:</strong> We provide comprehensive guides, articles, and 
+            videos covering various aspects of online safety, including privacy settings, cyberbullying, 
+            online etiquette, and digital citizenship.
+        </li>
+        <li>
+            <strong>Practical Tips:</strong> Our platform offers practical tips and advice for 
+            teenagers on how to protect their privacy, recognize and respond to online threats, 
+            and maintain a healthy balance between online and offline activities.
+        </li>
+        <li>
+            <strong>Parental Guidance:</strong> We offer resources and support for parents to navigate 
+            their teenagers' online world, including tips for monitoring and managing their 
+            children's online activities, fostering open communication, and addressing 
+            online safety concerns.
+        </li>
+        <li>
+            <strong>Community Support:</strong> Our community forums provide a space for teenagers and 
+            parents to share experiences, ask questions, and support one another in promoting online 
+            safety and well-being.
+        </li>
+    </ul>
+    <h1>Our Values</h1>
+    <ul>
+        <li>
+            <strong>Safety:</strong> We prioritize the safety and well-being of teenagers in everything we do, striving to 
+            create a safe and supportive online community.
+        </li>
+        <li>
+            <strong>Empowerment:</strong> We believe in empowering teenagers to make informed decisions 
+            and take control of their online experiences through education and awareness.
+        </li>
+        <li>
+            <strong>Inclusivity:</strong> We embrace diversity and inclusivity, recognizing the 
+            unique experiences and challenges faced by teenagers from different 
+            backgrounds and communities.
+        </li>
+        <li>
+            <strong>Collaboration:</strong> We collaborate with educators, experts, and 
+            organizations to leverage collective expertise and resources in promoting 
+            online safety and digital literacy.
+        </li>
+    </ul>
+    <h1>Join Us</h1>
+    <p>
+        Whether you're a teenager navigating the complexities of social media or a parent seeking guidance on 
+        keeping your child safe online, we invite you to join us in our mission. Together, we can create a 
+        safer, more positive online environment for teenagers everywhere.Join the SMC community 
+        today and let's navigate the digital world together!
+    </p>
+</div>
 <!-- === end Login pop-up text === -->
 <footer>
 <div class="you-are-here">
