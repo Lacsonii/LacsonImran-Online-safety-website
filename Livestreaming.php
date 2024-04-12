@@ -86,7 +86,7 @@
         <li>How live streaming could be done in Safe environment</li>
         <li>Know difference between streaming and downloading</li>
     </ul>
-    <div class="learning-news">
+    <div class="learning-news sub">
         <h1>Want to keep on learning about Online safety?</h1>
         <p>
             Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!<br><br><br>
