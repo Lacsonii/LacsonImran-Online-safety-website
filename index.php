@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
 <body>
 <!-- === navigation-bar text === -->
 <nav>
@@ -24,9 +23,9 @@
                     <span class ="logo"><a href ="#">SMC</a></span>
                     <i class='bx bx-x sidebarClose'></i>
                 </div>
-
+               
             <ul class = "links">
-                <li><a href = "index.php">Social Issues</a></li>
+                <li><a href = "index.php">Social Issues <i class='bx bxs-down-arrow'></i></a></li>
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
