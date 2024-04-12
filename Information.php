@@ -87,7 +87,7 @@
             digital habits, fostering a culture of trust and resilience in the digital age.
             <br><br>
             <!-- alert -->
-            <div class="login-signup-alert">
+            <div class="login-signup-alert alert">
                     <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
                     <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
                     Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
@@ -197,7 +197,7 @@
                                 predators, it empowers teens to navigate the digital world responsibly.<br>
                                 <br><br>
                                 <!-- alert -->
-                                <div class="login-signup-alert">
+                                <div class="login-signup-alert alert">
                                         <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
                                         <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
                                         Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
