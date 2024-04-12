@@ -1425,10 +1425,7 @@ iframe{
     padding: 30px;
     overflow-y: scroll;
 }
-/* .info-site .classimage img{
-    border-radius: 10px;
-    width: 20%;
-} */
+
 .info-site h1{
     color: var(--contactform-color);
     margin: 20px 0px 10px 0px;
