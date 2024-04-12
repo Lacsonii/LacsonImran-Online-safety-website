@@ -26,24 +26,10 @@
                 </div>
 
             <ul class = "links">
-                <li><a href = "index.php">Social Issues</a>
-                <ul class="Dropdown">
-                    <li><a href="">Cyberbullying</a></li>
-                    <li><a href="">cyberbullying</a></li>
-                    <li><a href="">cyberbullying</a></li>
-                    <li><a href="">cyberbullying</a></li>
-                    <li><a href="">cyberbullying</a></li>
-                    <li><a href="">cyberbullying</a></li>
-                </ul>
-                </li>
+                <li><a href = "index.php">Social Issues</a></li>
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
-                <ul class="Dropdown-live">
-                    <li><a href="">Cyberbullying</a></li>
-                    <li><a href="">cyberbullying</a></li>
-                    <li><a href="">cyberbullying</a></li>
-                </ul>
                 <li><a href = "LegAndGuid.php">Guidlines</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
@@ -119,6 +105,16 @@
     <img src ="images/3D-picture.png" alt ="pictureSafe">
     <img src ="images/3D-picture.png" alt ="pictureSafe">
 </div>
+<!-- podcast iframe -->
+<div class="podcast-iframe">
+    <h1>Listen Live to Online teen safety<i class='bx bx-podcast'></i></h1>
+    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" 
+    style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" 
+    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+    src="https://embed.podcasts.apple.com/us/podcast/keeping-our-teens-safe-online/id1552823459?i=1000650150528"></iframe>
+</div>
+    <!-- end podcast iframe -->
+
 <!-- How to stay online texts -->
 <div class="how-to-stay-safe">
     <h1>How to Stay safe Online</h1></br>
@@ -160,6 +156,14 @@
     <img src ="images/safe.png" alt ="pictureSafe">
 </div>
 
+<!-- === podcast iframe === -->
+<div class="podcast-iframe">
+<h1>Listen Live to Online teen safety<i class='bx bx-podcast'></i></h1>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5sc8FQecMC2nzmkUKz2xk5?utm_source=generator" 
+        width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; 
+        picture-in-picture" loading="lazy"></iframe>
+</div>
+<!-- === end podcast iframe === -->
 
 <!-- Popular social media application -->
 <div class="popular-social-media" id="myDIV">
@@ -224,25 +228,28 @@
     alt="Typing Test" /></a><p>Visit the <a href="https://10fastfingers.com/typing-test/english">Typing Test</a> and try!</p>
     <br><br>
     <!-- Alert -->
-    <div class="login-signup-alert">
+    <div class="login-signup-alert login-signup">
                     <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
                     <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
                     Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
                 </div>
         <!-- end alert -->
     </div>
+    <!-- === youtupe embeded service === -->
+    <div class="popular">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MB5VDIebMd8?si=Lff96cWWiGhKE2Aa" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<div class="popular">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MB5VDIebMd8?si=Lff96cWWiGhKE2Aa" 
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fhLxgQfUtKI?si=FKVSpNN7zaE2N8E4" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <!-- === End youtube embeded services === -->
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fhLxgQfUtKI?si=FKVSpNN7zaE2N8E4" 
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
 </div>
 <!-- End Popular social media application -->
+
 <footer>
 <div class="you-are-here">
             <ul>
