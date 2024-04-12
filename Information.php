@@ -75,7 +75,7 @@
  <div class="parent-ing" id="myDIV">
     <div class="img-campaign">
         <h2>ParentsLoveYou(PLY) Campaign</h2>
-        <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
+        <img src = "images/parentting.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
         <h3>Campaign Aim</h3>
         <p>
             Empowering parents to engage in conversations about online safety with their teenagers,</br>
@@ -102,7 +102,7 @@
         </p>
         <div class="img-c">
             <h2>Let Me Browse</h2>
-            <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
+            <img src = "images/browsing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
             <h3>Campaign Aim</h3>
             <p>
                 Empower teens with knowledge and skills for safe online navigation, fostering digital citizenship </br>
@@ -139,7 +139,7 @@
                 </p>
                 <div class="img-c">
                     <h2>Lets Be On Internet</h2>
-                    <img src = "images/parent-ing.jpg" name = "talk" alt = "talk-Image" class = "campaign-image">
+                    <img src = "images/internet.png" name = "talk" alt = "talk-Image" class = "campaign-image">
                     <h3>Campaign Aim</h3>
                     <p>
                         Equip teenagers with essential tools and awareness to safeguard themselves and<br>
