@@ -1369,9 +1369,9 @@ iframe{
 }
 
 .parent-ing .img-campaign .campaign-image{
-    border-radius: 10%;
-    width: 550px;
-    height: 470px;
+    border-radius: 2%;
+    width: 700px;
+    height: 500px;
     margin-left: 130px;
 }
 .alert{
