@@ -123,42 +123,6 @@ nav .nav-bar .sidebarOpen{
     padding: 0 14px;
 }
 
-/* Dropdown  */
-.Dropdown{
-    width: 100%;
-    padding: 2px;
-    top: 50px;
-    left: 40px;
-    position: absolute;
-    background-color: var(--nav-color);
-    border-radius: 0px 0px 5px 5px;
-    height: 250px;
-    opacity: 0;
-    z-index: -1;
-    visibility: hidden;
-}
-
-.menu-links .Dropdown:hover,
-.menu-links .Dropdown-live:hover {
-    text-decoration: none;
-    visibility: visible;
-    opacity: 1;
-}
-.Dropdown-live{
-    width: 15%;
-    padding: 2px;
-    top: 70px;
-    left: 470px;
-    position: absolute;
-    background-color: var(--nav-color);
-    border-radius: 0px 0px 5px 5px;
-    height: 130px;
-    opacity: 0;
-    z-index: -1;
-    visibility: hidden;
-}
-/* End Dropdown" */
-
 .nav-bar .menu-links .links li a{
     margin: 0 5px;
     height: 100%;
@@ -882,21 +846,7 @@ form{
 .background .login #showlogin{
     margin-left: 10px;
 }
-/* === how-to-stay-safe === */
-.how-to-stay-safe{
-    text-align: center;
-    background-color: var(--popup-color);
-    height: 750px;
-    margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 15px;
-    padding: 0.5rem;
-}
-.how-to-stay-safe h1{
-    color: var(--contactform-color); 
-    font-size: 40px;
-}
+
 /* rotating 3D illustrations */
 .image-3D{
     display: flex;
@@ -929,8 +879,20 @@ form{
 
     /* End 3D Illustruction rotation */
 }
+/* === how-to-stay-safe === */
+.how-to-stay-safe{
+    text-align: center;
+    background-color: var(--popup-color);
+    height: 800px;
+    margin: 20px 200px 0px 250px;
+    border-radius: 15px;
+    padding: 2rem;
+}
+.how-to-stay-safe h1{
+    color: var(--contactform-color); 
+    font-size: 40px;
+}
 .how-to-stay-safe img{
-    animation: rotateImage 10s linear infinite; 
     width: 500px;
     height: 400px;
     margin-top: -20px;
@@ -1010,6 +972,17 @@ form{
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 10px;
+}
+.login-signup{
+    margin-left: -200px;
+
+}
+.podcast-iframe{
+    margin: 0px 0px 10px 150px;
+}
+.podcast-iframe h1{
+    color: var(--contactform-color);
+    margin-left: 300px;
 }
 /* === End index styling === */
 
@@ -1393,6 +1366,10 @@ iframe{
     width: 550px;
     height: 470px;
     margin-left: 130px;
+}
+.alert{
+    margin-left: 250px;
+    width: 50%;
 }
 /* === end information style page === */
 
@@ -2229,11 +2206,15 @@ footer .footer i{
     background-color: rgb(129, 3, 3);
     color: var(--text-color);
     border-radius: 15px;
+    transform: scale(1.1);
 }
 .playstore{
     width: 190px;
     height: 75px;
     cursor: pointer;
+}
+.playstore:hover{
+    transform: scale(1.2);
 }
 footer .footer i:hover{
     color: var(--Inputpopup-color);
