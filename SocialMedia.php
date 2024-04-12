@@ -71,11 +71,11 @@
     </div>
 </div>
 <div class="btn-app">
-    <button><a href="#updates">Updates</a></button>
-    <button><a href="#most-popular">Most Popular</a></button>
-    <button><a href="#blogs">blog Posts</a></button>
+    <button class = "button"><a href="#updates">Updates</a></button>
+    <button class = "button"><a href="#most-popular">Most Popular</a></button>
+    <button class = "button"><a href="#blogs">blog Posts</a></button>
 </div>
-<div class="learning-news">
+<div class="learning-news sub">
         <h1>Want to keep on learning about Online safety?</h1>
         <p>
             Subscribe to Newslatter, SMC's monthly recap of the Internet's most popular safety insights!<br><br><br>
