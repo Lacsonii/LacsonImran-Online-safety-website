@@ -82,9 +82,9 @@
             <button><a href="Subscribe.php">Subscribe</a></button>
         </p>
     </div>
-<div class="info-site">
+<div class="info-site" id="myDIV">
     <h1>Topic: Ensuring Teenager Safety Online</h1>
-    <p id="myDIV">
+    <p>
         <h2>Cyberbullying Prevention Strategies:</h2> <p class="paragraph">Cyberbullying remains a pervasive threat to teenagers' mental health and 
         well-being. Discuss effective prevention strategies, such as fostering a supportive online community, 
         promoting empathy, and implementing reporting systems on social media platforms.</p>
