@@ -973,8 +973,15 @@ form{
     font-weight: 600;
     padding-bottom: 10px;
 }
+.play-fun a{
+    text-decoration: none;
+    color: blue;
+}
+.play-fun a:hover{
+    text-decoration: underline 0.5px solid blue;
+}
 .login-signup{
-    margin-left: -200px;
+    margin-left: -200px; /* alert */
 
 }
 .podcast-iframe{
@@ -1446,7 +1453,7 @@ iframe{
 .btn-app .button{
     margin:5px 0px 10px 15px;
     padding: 4px;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 700;
     border: 1px solid var(--nav-color);
     border-radius: 15px;
@@ -1457,19 +1464,12 @@ iframe{
     text-decoration: none;
     color: var(--nav-color);
 }
-.btn-app .button a:hover {
-    margin:15px;
-    padding: 4px;
-    font-size: 15px;
-    font-weight: 500;
-    border: 1px solid var(--nav-color);
-    border-radius: 15px;
-    background-color: var(--nav-color);
-    color: var(--text-color);
+.btn-app .button:hover {
+   transform: scale(1.2);
 }
 .sub a{
     text-decoration: none;
-    color: var(--text-color); /* applies in two different forms */
+    color: var(--text-color); /* applies in two different forms livestream and apps*/
 }
 /* === End Social Media Application */
 
@@ -1666,22 +1666,23 @@ textarea.input{
 .social-icons i:hover{
     transform: scale(1.05);
 }
-.info button{
+.info .btn-privacy{
     padding: 9px;
     border: 1px solid var(--contactform-color);
     border-radius: 15px;
     background-color: transparent;
+    color: var(--text-color);
     margin-left: 20px;
     font-style: italic;
     cursor: pointer;
 }
-.button a{
+.btn-privacy a{
     color: var(--contactform-color);
     font-size: 15px;
+    text-decoration: none;
 }
 .info .button:hover{
-    background-color: var(--contactform-color);
-    color: var(--text-color);
+   transform: scale(1.2);
 }
 .comments{
     margin-top: -45px;
