@@ -58,8 +58,8 @@
     </div>
 </nav>
 <!-- === end navigation-bar text === --> 
-<!-- === Login pop-up text === -->
 
+<!-- === Login pop-up text === -->
 <div class = "popup">
     <div class = "close-btn">&times;</div>
     <div class = "form">
@@ -91,6 +91,7 @@
         <a href="contactus.php">Contact Us</a>&nbsp;|&nbsp;<a href="termsAndConditions.php">Terms of Use</a>&nbsp;|&nbsp;<a href="privacypolicy.php">Privacy policy</a>
     </div>
 </div>
+
 <!-- on backgroung image -->
 <div class="background">
     <button class = "bg-btn"><a href="SignUp.php">Create Account</a></button>
@@ -105,15 +106,16 @@
     <img src ="images/3D-picture.png" alt ="pictureSafe">
     <img src ="images/3D-picture.png" alt ="pictureSafe">
 </div>
+
 <!-- podcast iframe -->
-<div class="podcast-iframe">
-    <h1>Keeping Our Teens Safe Online<i class='bx bx-podcast'></i></h1>
-    <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" 
-    style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" 
-    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
-    src="https://embed.podcasts.apple.com/us/podcast/keeping-our-teens-safe-online/id1552823459?i=1000650150528"></iframe>
-</div>
-    <!-- end podcast iframe -->
+    <div class="podcast-iframe">
+        <h1>Keeping Our Teens Safe Online<i class='bx bx-podcast'></i></h1>
+        <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" 
+        style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" 
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+        src="https://embed.podcasts.apple.com/us/podcast/keeping-our-teens-safe-online/id1552823459?i=1000650150528"></iframe>
+    </div>
+<!-- end podcast iframe -->
 
 <!-- How to stay online texts -->
 <div class="how-to-stay-safe">
@@ -157,12 +159,12 @@
 </div>
 
 <!-- === podcast iframe === -->
-<div class="podcast-iframe">
-<h1>Listen Live to Teens and Online Safety<i class='bx bx-podcast'></i></h1>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5sc8FQecMC2nzmkUKz2xk5?utm_source=generator" 
-        width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; 
-        picture-in-picture" loading="lazy"></iframe>
-</div>
+    <div class="podcast-iframe">
+    <h1>Listen Live to Teens and Online Safety<i class='bx bx-podcast'></i></h1>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5sc8FQecMC2nzmkUKz2xk5?utm_source=generator" 
+            width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; 
+            picture-in-picture" loading="lazy"></iframe>
+    </div>
 <!-- === end podcast iframe === -->
 
 <!-- Popular social media application -->
@@ -186,13 +188,15 @@
             <a href="https://edu.gcfglobal.org/en/facebook101/what-is-facebook/1/">Read more</a></br>
         </p>
     </div>
+
     <!-- Alert -->
-    <div class="login-signup-alert">
-        <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
-        <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
-        Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
-    </div>
+        <div class="login-signup-alert">
+            <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
+            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+            Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
+        </div>
     <!-- end alert -->
+
     <div class="x-twitter">
             <h2>About X(Formaly twitter)&nbsp;&nbsp;<i class="fa-brands fa-square-x-twitter"></i></h2>
         <p>
@@ -206,9 +210,10 @@
         </p>
 
     </div>
-        <div class="Instagram">
-            <h2>About Instagram&nbsp;&nbsp;<i class="fa-brands fa-square-instagram"></i></h2>
-            <p>
+
+    <div class="Instagram">
+        <h2>About Instagram&nbsp;&nbsp;<i class="fa-brands fa-square-instagram"></i></h2>
+        <p>
             Instagram is a free photo and video sharing app available on iPhone and Android. People can</br>
             upload photos or videos to our service and share them with their followers or with a </br>
             select group of friends. They can also view, comment and like posts shared by their friends</br> 
@@ -222,6 +227,7 @@
         </p>
     </div>
 </div>
+
 <div class="play-fun">
     <h1>Play fun and test your typing skills</h1>
     <a href="https://10fastfingers.com/typing-test/english"><img src="http://img.10fastfingers.com/badge/typing-test_1_AN.png" 
