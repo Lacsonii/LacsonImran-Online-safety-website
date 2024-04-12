@@ -122,9 +122,7 @@
         critically evaluate online content. Discuss strategies for teaching media literacy, fact-checking 
         techniques, and recognizing bias to empower teenagers.</p>
     </p>
-    <!-- <div class="classimage">
-        <img src ="images/world.jpg" alt ="pictureSafe">
-    </div> -->
+
     <h1>Topic: Building Healthy Digital Habits</h1>
     <p id="myDIV">
         <h2>Mindful Social Media Use:</h2> <p class="paragraph">Social media platforms offer opportunities for connection and self-expression, 
