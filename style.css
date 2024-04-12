@@ -1443,7 +1443,7 @@ iframe{
     text-decoration: none;
     color: blue;
 }
-.btn-app button{
+.btn-app .button{
     margin:5px 0px 10px 15px;
     padding: 4px;
     font-size: 10px;
@@ -1453,12 +1453,23 @@ iframe{
     background-color: transparent;
     cursor: pointer;
 }
-.btn-app a{
+.btn-app .button a{
+    text-decoration: none;
     color: var(--nav-color);
 }
-.btn-app button:hover{
+.btn-app .button a:hover {
+    margin:15px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid var(--nav-color);
+    border-radius: 15px;
     background-color: var(--nav-color);
     color: var(--text-color);
+}
+.sub a{
+    text-decoration: none;
+    color: var(--text-color); /* applies in two different forms */
 }
 /* === End Social Media Application */
 
@@ -2290,21 +2301,26 @@ footer .copy .rights{
     color: var(--labl-color);
 }
 .sign button{
-    background-color: transparent;
-    border: 1px solid var(--text-color);
+    position: relative;
+    background-color: rgb(129, 3, 3);
+    color: var(--text-color);
+    border: 0.5px solid var(--text-color);
     border-radius: 20px;
     margin-left: 1000px;
 }
-button a{
+.sign a{
     color: var(--text-color);
     text-decoration: none;
-    font-size: 25px;
-    padding: 20px;
+    font-size: 20px;
     font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
 }
-button a:hover{
-    background-color: transparent;
+.sign button:hover{
+    background-color: var(--footer-color);
     color: var(--text-color);
+    transform: scale(1.2);
+    cursor: pointer;
     
 }
 /* === end footer style === */
