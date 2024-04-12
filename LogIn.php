@@ -74,7 +74,7 @@
         <div class = "LogIn-element">
             <lable for = "password">Password</lable>
             <input type = "password" id = "password" placeholder = "password" name = "Password" required>
-            <input type="checkbox" onclick="Function()">Show Password
+            <input type="checkbox" onclick="Function()">Show Passwordz
         </div>
 
         <div class = "LogIn-element">
