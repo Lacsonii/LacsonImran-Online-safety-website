@@ -31,7 +31,7 @@
                 <i class ='bx bx-sun sun'></i>
             </div>
         
-            <div class = "searchBox">
+            <div class = "searchBox"> 
                 <div class = "searchToggle">
                     <i class='bx bx-x cancle'></i>
                     <i class='bx bx-search search'></i>
