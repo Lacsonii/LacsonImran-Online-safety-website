@@ -158,6 +158,7 @@
         providers like Netflix rely on distributed content delivery networks (CDNs) <br> 
         to store content closer to users globally, ensuring smoother and more reliable <a href ="#section-1">streaming</a> experiences.<br> 
     </p><br><br>
+
     <!-- alert -->
     <div class="login-signup-alert">
             <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
@@ -165,6 +166,7 @@
             Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
     </div>
     <!-- end alert -->
+    
     <h1 id = "section-2">What Is Live streaming?</h1>
     <img src ="images/whatIsImage.png" alt ="LiveStreamImage"><br>
     <p>
