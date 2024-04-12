@@ -33,7 +33,7 @@ $DateOfBirth = $_POST["dateOfBirth"];
 $password = $_POST["password"];
 
 // Prepare and execute SQL query to insert into 'users' table
-$userQuery = "INSERT INTO webusers VALUES ('$Username', '$password', 2,)";
+$userQuery = "INSERT INTO webusers VALUES ('$Username', '$password', 2)";
 $retUsers = mysqli_query($conn, $userQuery);
 
 // Prepare and execute SQL query to insert into 'details' table
