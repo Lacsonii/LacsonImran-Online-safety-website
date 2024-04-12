@@ -79,7 +79,7 @@
                 <a href = ""><i class='bx bx-phone-call' ></i></a>
                     <p>882-000-119</p>
                 </div>
-                <button class="button"><a href="privacypolicy.php">Privacy policy</a></button>
+                <button class="button btn-privacy"><a href="privacypolicy.php">Privacy policy</a></button>
             </div>
 
             <div class="social-media">
