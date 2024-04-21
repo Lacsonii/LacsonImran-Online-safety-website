@@ -1447,6 +1447,9 @@ iframe{
     text-decoration: none;
     color: blue;
 }
+.info-site .paragraph a:hover{
+    text-decoration: underline 0.5px solid blue;
+}
 .btn-app .button{
     margin:5px 0px 10px 15px;
     padding: 4px;
