@@ -42,7 +42,7 @@ if ($retUsers) {
     $retDetails = mysqli_query($conn, $detailsQuery);
 
     if ($retDetails) {
-        echo "Record created successfully";
+        echo "Account creation was done Successfully";
     } else {
         echo "Error inserting into 'details' table: " . $detailsQuery . "<br>" . $conn->error;
     }
