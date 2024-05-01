@@ -31,7 +31,7 @@
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
-                <li><a href = "LegAndGuid.php">Guidlines</a></li>
+                <li><a href = "LegAndGuid.php">Guidance</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
                 <li><a href = "review.php">Reviews</a></li>
@@ -61,7 +61,7 @@
 <!-- === end navigation-bar text === --> 
 
 <!-- === Login pop-up text === -->
-<div class = "popup">
+<div class = "popup" action = "authentication.php" >
     <div class = "close-btn">&times;</div>
     <div class = "form">
       <h2>Log In</h2>
@@ -124,28 +124,28 @@
     <img src ="images/safe-online.png" alt ="pictureSafe">
         <ul>
             <li>
-                Block anyone you’ve had contact with that was negative or unsafe.</br>
+                Block anyone you’ve had contact with that was negative or unsafe.
             </li>
             <li>
-                Protect your identity.</br> 
+                Protect your identity.
             </li>
             <li>
-                Think before you upload and share photos.</br>
+                Think before you upload and share photos.
             </li>
             <li>
-                Think carefully about sharing links to other site.</br> 
+                Think carefully about sharing links to other site.
             </p>
             <li>
-                Be mindful of what you write to others.</br> 
+                Be mindful of what you write to others.
             </li>
             <li>
-                keep sexting laws in mind when taking photos and sending or receiving images.</br> 
+                keep sexting laws in mind when taking photos and sending or receiving images.
             </li>
             <li>
-                Keep your online friends online.</br> 
+                Keep your online friends online.
             </li>
             <li>
-                Think critically about online content (link to social post once up).</br> 
+                Think critically about online content (link to social post once up).
             </li>
         </ul>
       <div class = "readmore">You can Read More on <a href="https://blogs.microsoft.com/on-the-issues/2024/01/16/youth-online-safety-ai-safer-internet/">Advancing youth online safety and wellness.</a></br> 
@@ -172,28 +172,29 @@
 <div class="popular-social-media" id="myDIV">
     <h1 class = "header-media">Popular Social Media Applications</h1>
     <p class = "p-media">
-        Be aware of the social media applications in this world, which we are sure you all know about them</br>
-        This includes Facebook, Instagram and X-twitter (formerly know as twitter)</br>
+        Be aware of the social media applications in this world, which we are sure you all know about them
+        This includes Facebook, Instagram and X-twitter (formerly know as twitter)
     </p>
 
     <div class="facebook">
             <h2>About Facebook&nbsp;&nbsp;<i class="fa-brands fa-facebook"></i></h2>
         <p>
-            Facebook is a social networking site that makes it easy for you to connect and share with</br>
-            family and friends online. Originally designed for college students, Facebook was </br>
-            created in 2004 by Mark Zuckerberg while he was enrolled at Harvard University. By </br>
-            2006, anyone over the age of 13 with a valid email address could join Facebook. Today, </br>
-            Facebook is the world's largest social network, with more than 1 billion users worldwide.</br></br>
+            Facebook is a social networking site that makes it easy for you to connect and share with
+            family and friends online. Originally designed for college students, Facebook was 
+            created in 2004 by Mark Zuckerberg while he was enrolled at Harvard University. By 
+            2006, anyone over the age of 13 with a valid email address could join Facebook. Today, 
+            Facebook is the world's largest social network, with more than 1 billion users worldwide.
             
-            You can create an account on <a href ="https://web.facebook.com/signup?_rdc=1&_rdr">Facebook</a></br>
-            <a href="https://edu.gcfglobal.org/en/facebook101/what-is-facebook/1/">Read more</a></br>
+            You can create an account on <a href ="https://web.facebook.com/signup?_rdc=1&_rdr">Facebook</a>
+            <a href="https://edu.gcfglobal.org/en/facebook101/what-is-facebook/1/">Read more</a>
         </p>
     </div>
 
     <!-- Alert -->
+
         <div class="login-signup-alert">
             <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
-            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
+            <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a>
             Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
         </div>
     <!-- end alert -->
@@ -201,12 +202,12 @@
     <div class="x-twitter">
             <h2>About X(Formaly twitter)&nbsp;&nbsp;<i class="fa-brands fa-square-x-twitter"></i></h2>
         <p>
-             X (formerly Twitter) is an online news and social networking site where</br> 
-            people communicate in short messages. The hope is that your words are useful and </br>
-            interesting to someone in your audience. X is one example of a microblogging platform.</br>
-            Some people use X to discover interesting people and companies online, opting to follow their tweets.</br></br>
+             X (formerly Twitter) is an online news and social networking site where
+            people communicate in short messages. The hope is that your words are useful and 
+            interesting to someone in your audience. X is one example of a microblogging platform.
+            Some people use X to discover interesting people and companies online, opting to follow their tweets.
 
-            Create account on <a href = "https://twitter.com/i/flow/signup?lang=en">X-twitter</a></br>
+            Create account on <a href = "https://twitter.com/i/flow/signup?lang=en">X-twitter</a>
             <a href="https://www.lifewire.com/what-exactly-is-twitter-2483331">Read more</a>
         </p>
 
@@ -215,10 +216,10 @@
     <div class="Instagram">
         <h2>About Instagram&nbsp;&nbsp;<i class="fa-brands fa-square-instagram"></i></h2>
         <p>
-            Instagram is a free photo and video sharing app available on iPhone and Android. People can</br>
-            upload photos or videos to our service and share them with their followers or with a </br>
-            select group of friends. They can also view, comment and like posts shared by their friends</br> 
-            on Instagram. Anyone 13 and older can create an account by registering an email address and</br> 
+            Instagram is a free photo and video sharing app available on iPhone and Android. People can
+            upload photos or videos to our service and share them with their followers or with a 
+            select group of friends. They can also view, comment and like posts shared by their friends 
+            on Instagram. Anyone 13 and older can create an account by registering an email address and 
             selecting a username.</br></br>
 
             
@@ -240,8 +241,9 @@
                     <a href="LogIn.php">Log In</a> or <a href="SignUp.php">Create Account</a><br>
                     Do not forget to <a href="Subscribe.php">Subscribe</a> to SMC Newsletters.
                 </div>
+</div>
+
         <!-- end alert -->
-    </div>
     <!-- === youtupe embeded service === -->
     <div class="popular">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/MB5VDIebMd8?si=Lff96cWWiGhKE2Aa" 
@@ -256,7 +258,10 @@
 
 </div>
 <!-- End Popular social media application -->
-
+<div class="newsfeed">
+    <rssapp-carousel id="tHNo4HZUduu6xoTb"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" 
+    type="text/javascript" async></script>
+</div>
 <footer>
 <div class="you-are-here">
             <ul>
@@ -308,6 +313,7 @@
                 <div class="sign">
                     <button><a href = "SignUp.php">Sign Up&nbsp;<i class="fa-solid fa-arrow-right"></i></a></button>
                 </div>
+        </div>
     </div>
 </footer>
 <!-- === calling javascript codes/scripts in script.js folder === -->
