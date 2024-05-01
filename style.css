@@ -928,10 +928,9 @@ form{
 
 .popular-social-media{
     display: block;
-    margin-left: 20%;
+    margin: 0px 5% 10px 5%;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 10px;
 }
 .popular-social-media h1{
     color: var(--contactform-color);
@@ -940,7 +939,7 @@ form{
 .Instagram p,
 .x-twitter p{
 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .facebook h2,
 .Instagram h2,
@@ -990,6 +989,9 @@ form{
 .podcast-iframe h1{
     color: var(--contactform-color);
     margin-left: 300px;
+}
+.newsfeed{
+    margin: 100px 20px 0px 0px;
 }
 /* === End index styling === */
 
@@ -1229,23 +1231,25 @@ iframe{
 }
 .legAndguid .guide{
     font-size: 23px;
-    margin: 0px 0px 5px 30px;
+    margin: 0px 50px 20px 30px;
 }
 .legNg .legNg-p1 p{
     font-size: 18px;
+    margin-right: 20px;
 }
 .legAndguid .guide u{
     color: blue;
 }
 .legAndguid .guide a{
     text-decoration: none;
+
 }.legAndguid .guide-p a:hover{
     text-decoration: underline blue;
 }
 
 .legAndguid{
     margin-top: 10px;
-    margin-left: 60px;
+    margin:0px 50px 0px 60px;
 }
 .legAndguid h1{
     padding-bottom: 2px;
@@ -1254,7 +1258,7 @@ iframe{
     color: var(--contactform-color);
 }
 .legAndguid ul li{
-    margin-left: 50px;
+    margin: 0px 50px 30px 50px;
     font-size: 20px;
 }
 .legAndguid ul li::marker{
@@ -1345,12 +1349,12 @@ iframe{
     color: var(--nav-color);
 }
 .campaign .p-camapign{
-    margin-left: 109px;
+    margin: 0px 5% 0px 109px;
     font-size: 25px;
     font-weight: 500;
 }
  .parent-ing p{
-    margin-left: 130px;
+    margin: 0px 5% 0px 130px;
     font-size: 22px;
     font-weight: 300;
 }
@@ -2327,7 +2331,8 @@ footer .copy .rights{
 /* === end footer style === */
 
 /* === resposniviness styling === */ 
-@media (max-width: 790px) {
+
+@media (max-width: 700px) {
     nav .nav-bar .sidebarOpen{
         display: block;
     }
@@ -2375,22 +2380,107 @@ footer .copy .rights{
         display: block;
         padding:  10px;
     }
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 300px;
-        width: 100%;  
-        margin-top: 80px;
+
+    /* index */
+    .background{
+        width: 100%;
+        height: 50vh;
+       
     }
-    footer .footer{
-        position:block;
+    .index-bar{
+        height: 50px;
+        width: 100%;
+    }
+    .background button{
+        margin-top: 380px;
+    }
+    .background .login button{
+        margin-top: 380px; 
+    }
+
+    .image-3D img{
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+        transition: transform 0.5s;
+    }
+    .how-to-stay-safe{
+        text-align: center;
+        height: 700px;
+        margin: 0px 0px 20px 20px;
+        border-radius: 20px;
+        padding: 1rem;
+        width: 95%;
+    }
+    .how-to-stay-safe h1{
+        font-size: 30px;
+    }
+    .how-to-stay-safe img{
+        width: 400px;
+        height: 400px;
+    }
+    .how-to-stay-safe ul li{
+        font-size: 15px;
+    }
+    .podcast-iframe{
+        margin: 0px 0px 10px 5px;
+        width: 400px;
+    }
+    .podcast-iframe h1{
+        margin-left: 100px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .play-fun{
+        margin-left: 20%;
+        padding: 2px;
+    }
+    .play-fun .login-signup-alert{
+        width: 100%;
+        margin-left: -60px;
+    } 
+    .popular-social-media{
+        display: block;
+        margin-left: 10%;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .popular-social-media h1{
+        font-size: 25px;
+    }
+    .facebook p,
+    .Instagram p,
+    .x-twitter p{
+    
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .facebook h2,
+    .Instagram h2,
+    .x-twitter h2{
+        margin-top: 20px;
+    }
+    .popular iframe{
+        width: 330px;
+        height: 180px;
+        margin:50px 0px 0px 2px;
+    }
+    .login-signup-alert{
+        width: 100%;
+        margin-left: 2px;
+    }
+    .login-signup{
+        width: 100%;
+        margin-left: 2px;
+    }
+    /*  */
+    footer {
+        height: 400px;
+        width: 100%;  
+        
     }
     footer .footer i{
-        padding: 10px 0px;
-        font-size: 15px;
-        cursor: pointer;
         margin-left: 10px;
 
     }
@@ -2412,5 +2502,251 @@ footer .copy .rights{
         margin-left: -990px;
         border: none;
     }
-}
+    .icon{
+        margin:-180px 0px 0px -50px;
+         
+    }
+    footer .footer i{
+        margin-left: 0px;
+        top: 30px;
+        font-size: 15px;
+    }
+    .footer .txt{
+        margin: -10px 0px 0px -50px;
+    }
 
+    /* you are here */
+    .you-are-here{
+        position:absolute;
+        margin: 300px 0px 0px 500px;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+
+    .sign button{
+        margin: 25px 0px 0px 535px;
+    }
+    .playstore{
+        width: 165px;
+        height: 70px;
+        cursor: pointer;
+        margin-left: -30px;
+    }
+
+    footer .about-text{
+        position: absolute;
+        margin: 150px 0px 0px -200px;
+        border: none;
+    }
+
+    /* information */
+    .image-c img{
+        margin-left: -50px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .header-camapign{
+        margin-left: 30px;
+        font-size: 35px;
+    }
+    .campaign .p-camapign{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .parent-ing .img-campaign .campaign-image{
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;
+    }
+    .parent-ing h2{
+        margin-left: 30px;
+        font-size: 25px;
+    }
+    .parent-ing h3{
+        margin-left: 30px;
+        font-size: 22px;
+    }
+    .parent-ing p{
+        margin: 0px 30px 0px 30px;
+        font-size: 20px;
+    }
+    .parent-ing .alert{
+        margin-left: 50px;
+        width: 80%;
+    }
+    /* Social Media Application */
+    .application{
+        height: 300px;
+        width: 100%;
+    }
+    .social-image{
+        margin: 130px 0px 0px 20px;
+        width: 200px;
+        height: 110px;
+    }
+    .application-text{
+        margin: 20% 0 0 45%;
+        font-size: 15px;
+    }
+    .app-question input{
+        margin-top: 20px;
+        width: 150px;
+        height: 30px;
+    }
+    
+    .app-question i{
+        font-size: 15px;
+    }
+    .info-site{
+        height: 600px;
+        width: 100%;
+        margin: -370px 70px 0px 0px;
+        border-radius: 5px;
+        padding: 20px;
+        overflow-x: hidden;
+    }
+    
+    .btn-app{
+        margin-left: 0px;
+    }
+    .btn-app .button{
+        font-size: 15px;
+    }
+    .sub{
+        visibility: hidden;
+    }
+    .safety-safety iframe{
+        width: 350px;
+        height: 180px;
+    }
+
+    /* === Livestreaming === */
+.live-stream{
+    background-color:  lightblue;
+    height: 400px;
+    margin-top: 70px;
+    padding: 100px;
+}
+.live-stream h1{
+    padding: 10px 0px;
+    color: var(--black-color);
+    font-weight: 600;
+}
+.live-stream p{
+    font-size: 18px;
+    padding: 10px 0px;
+    color: var(--black-color);
+    font-weight: 300;
+}
+.streaming-topics{
+    display: flex;
+    margin-left: 35px;
+    padding: 20px 0px;
+}
+    .streaming-topics h1{
+        font-size: 15px;
+        font-weight: lighter;
+        margin-left: 50px;
+        padding-left: 50px;
+    }
+    .streaming-topics ul li{
+        display: inline;
+        text-decoration: none;
+        padding-left: 2px 0px;
+        margin-left: 40px;
+    }
+    .streaming-topics li a{
+        text-decoration: none;
+        color: var(--black-color);
+        font-size: 15px;
+    }
+
+    .overview-site{
+        overflow-y: scroll;
+        border: 1px solid var(--nav-color);
+        border-radius: 10px;
+        width: 100%;
+        height: 700px;
+        margin-left: 0%;
+        overflow-x: hidden;
+    }
+    .learning-topics{
+        visibility: hidden;
+    }
+   
+
+    .learning-news{
+    visibility: hidden;
+    }
+
+    .overview-site img{
+        width: 400px;
+        height: 300px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        margin-left: 23%;
+    }
+    .overview-site .LiveStreamImage{
+        width: 350px;
+        height: 150px;
+    }
+    .overview-site iframe{
+        width: 350px;
+        height: 180px;
+        border-radius: 15px;
+        margin:40px 0px 40px 23%;
+    }
+    .video iframe{
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+        margin:100px 0px 0px -145px;
+    }
+    .boy-streaming{
+        position: absolute;
+        width: 350px;
+        height: 200px;
+        border-radius: 10px;
+        margin:-205px 0px 0px 160px;
+    }
+
+    .overview-site p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    /* === Legislation and Guideline page === */
+    .legNg{
+        background-color:  lightblue;
+        height: 300px;
+        margin-top: 70px;
+        padding: 20px;
+    }
+    .legAndguid .guide{
+        font-size: 15px;
+        margin: 0px 0px 20px 30px;
+    }
+    .legAndguid h1{
+        font-size: 22px;
+    }
+    .legNg .legNg-p1 p{
+        font-size: 15px;
+    }
+    .legAndguid ul li{
+        margin-bottom: 10px;
+    }
+    .legAndguid iframe{
+        margin-left: 10px;
+    }
+    
+    .guid-btn{
+        margin: -30% 0% 0% 68%;
+        padding: 5px;
+    }
+   
+    .guid-btn button{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
