@@ -32,7 +32,7 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
-                <li><a href = "LegAndGuid.php">Guidlines</a></li>
+                <li><a href = "LegAndGuid.php">Guidance</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
                 <li><a href = "review.php">Reviews</a></li>
@@ -119,18 +119,17 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
 <div class="legAndguid">
 <h1>Social Media Best Practice Guidelines</h1>
     <p class = "guide">
-    Following best practices can help social media users espicially teenager children most</br>
-    maintain a successful online presence and avoid potentially serious pitfalls. These guidelines </br>
-    are an educational resource to inform how various community members use </br>
-    social media in their professional lives.</br>
-    Broader social media users might also find them</br> 
-    helpful for navigating the gray area between professional and personal life online.</br></br>
+        Following best practices can help social media users espicially teenager children most
+        maintain a successful online presence and avoid potentially serious pitfalls. These guidelines
+        are an educational resource to inform how various community members use social media in 
+        their professional lives. Broader social media users might also find them 
+        helpful for navigating the gray area between professional and personal life online.<br><br>
 
-    First and foremost, always consider the implications of what you post and follow the</br> 
-    terms of service or community guidelines of the platforms you use. If a student you</br> 
-    are also expected to follow applicable university policies</br> 
-    (e.g., <u>Code of Student Conduct,</u> <u>Faculty Handbook and Staff Handbook</u>).</br></br>
-    Questions? Contact <a href = "#">sms.askus</a> for guidance.</br></br>
+        First and foremost, always consider the implications of what you post and follow the
+        terms of service or community guidelines of the platforms you use. If a student you
+        are also expected to follow applicable university policies (e.g., <u>Code of 
+        Student Conduct,</u> <u>Faculty Handbook and Staff Handbook</u>).<br><br>
+        Questions? Contact <a href = "#">sms.askus</a> for guidance.
     </p>
     <!-- Alert -->
     <div class="login-signup-alert">
@@ -143,52 +142,50 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are 
+                simple, specific, and clearly connected to a real-world identity, such as a department or organization 
+                name, are the most searchable and memorable.
             </li>
             <li>
-                Use the identity consistently across platforms as much as possible, with minor</br> 
-                variations as needed to fit each platform. This includes consistent account names as well</br> 
-                as graphics, colors, fonts, and profile description language.</br></br>
+                Use the identity consistently across platforms as much as possible, with minor   
+                variations as needed to fit each platform. This includes consistent account names as well  
+                as graphics, colors, fonts, and profile description language. 
             </li>
             <li>
-                Account profile, header, and background images should be simple, vibrant, and</br> 
-                clear (as high resolution as possible). Keep in mind that a profile image should</br> 
-                function effectively as a thumbnail.</br></br>            
+                Account profile, header, and background images should be simple, vibrant, and 
+                clear (as high resolution as possible). Keep in mind that a profile image should 
+                function effectively as a thumbnail.           
             </li>
             <li>
-                Confirm that you have permission to use the image, icon or graphic that you select.</br> 
-                You may use your unit’s own logo or wordmark. If you are uncertain of permission,</br> 
-                snap a fresh photograph to use. <a href = "#"> Learn more about fair use practices here.</a></br></br>
+                Confirm that you have permission to use the image, icon or graphic that you select.
+                snap a fresh photograph to use. <a href = "#"> Learn more about fair use practices here.</a> 
             </li>
             <li>
-                Make your account’s name and visual style unique.</br></br>
-            </li>
+                Make your account’s name and visual style unique. 
         </ul>
     </p>
     <h1>Provide Engaging Content</h1>
     <p class = "guide-p">
         <ul>
             <li>
-                Craft brief, effective messages that pique interest, inspire questions,</br> 
+                Craft brief, effective messages that pique interest, inspire questions,  
                 and implicitly convey why a reader should want to learn more.            
             </li>
             <li>
-                Post regularly but avoid redundancy, such as repeating reminders for an</br> 
-                upcoming event too many times. Posting frequency can be greater</br> 
-                on Twitter, Instagram, and Snapchat than on Facebook, where most institutions post from a</br>
-                few times per week to a few times per day.</br></br>
+                Post regularly but avoid redundancy, such as repeating reminders for an  
+                upcoming event too many times. Posting frequency can be greater 
+                on Twitter, Instagram, and Snapchat than on Facebook, where most institutions post from a 
+                few times per week to a few times per day.
             </li>
             <li>
-                Include a diverse mix of content types, such as: (1) original writing, video, audio,</br> 
-                or photos highlighting upcoming events, new publications, achievements, opportunities</br> 
-                or perspectives; (2) links to material produced by others, like breaking news stories;</br> 
-                (3) dialogue with and comments from community members.</br></br>            
+                Include a diverse mix of content types, such as: (1) original writing, video, audio,  
+                or photos highlighting upcoming events, new publications, achievements, opportunities  
+                or perspectives; (2) links to material produced by others, like breaking news stories;  
+                (3) dialogue with and comments from community members.          
             </li>
             <li>
-                Use a consistent personality or voice. On more visual platforms, focus on a consistent</br> 
-                visual style (such as using just a few of the available Instagram filters).</br></br>
+                Use a consistent personality or voice. On more visual platforms, focus on a consistent  
+                visual style (such as using just a few of the available Instagram filters). 
             </li>
         </ul>
     </p>
@@ -197,14 +194,15 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
         style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" 
         sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
         src="https://embed.podcasts.apple.com/us/podcast/keeping-our-teens-safe-online/id1552823459?i=1000650150528"></iframe>
-    <!-- end podcast iframe -->
+        <!-- end podcast iframe -->
     <h1>Prioritize Accuracy, Propriety, and Legality</h1>
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are
+                simple, specific, and clearly connected to a real-world identity, such as a department or 
+                organization name, are the most searchable and memorable.
+                
             </li>
         </ul>
     </p>
@@ -212,9 +210,10 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are
+                simple, specific, and clearly connected to a real-world identity, such as a department 
+                or organization name, are the most searchable and memorable.br>
+                
             </li>
         </ul>
     </p>
@@ -222,9 +221,10 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are
+                simple, specific, and clearly connected to a real-world identity, such as a department or 
+                organization name, are the most searchable and memorable.
+                
             </li>
         </ul>
     </p>
@@ -241,9 +241,10 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are 
+                simple, specific, and clearly connected to a real-world identity, such as a department or 
+                organization name, are the most searchable and memorable.
+                 
             </li>
         </ul>
     </p>
@@ -251,9 +252,9 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are
+                simple, specific, and clearly connected to a real-world identity, such as a department or 
+                organization name, are the most searchable and memorable.
             </li>
         </ul>
     </p>
@@ -261,9 +262,9 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are
+                simple, specific, and clearly connected to a real-world identity, such as a department or 
+                organization name, are the most searchable and memorable.
             </li>
         </ul>
     </p>
@@ -271,9 +272,9 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are 
+                simple, specific, and clearly connected to a real-world identity, such as a 
+                department or organization name, are the most searchable and memorable. 
             </li>
         </ul>
     </p>
@@ -281,9 +282,9 @@ integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4
     <p class = "guide-p">
         <ul>
             <li>
-                Create an online identity that is easy to recognize and understand. Account names that are</br>
-                simple, specific, and clearly connected to a real-world identity, such as a department or organization </br>
-                name, are the most searchable and memorable.</br></br>
+                Create an online identity that is easy to recognize and understand. Account names that are
+                simple, specific, and clearly connected to a real-world identity, such as a department 
+                or organization name, are the most searchable and memorable.
             </li>
         </ul>
     </p>
