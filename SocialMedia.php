@@ -33,7 +33,7 @@
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
-                <li><a href = "LegAndGuid.php">Guidlines</a></li>
+                <li><a href = "LegAndGuid.php">Guidance</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
                 <li><a href = "review.php">Reviews</a></li>
@@ -187,9 +187,12 @@
     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
     <h1 Id = "blogs">Blogs</h1>
-    <p class="paragraph">No blog post available now. Please keep intouch and visit the site again. 
-    You can please <a href="Subscribe.php">Subscribe to SMC Newslatters.</a>
-
+    <div class="blog-post">
+        <rssapp-carousel id="tbQUTUwpBdAOcL91"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
+        <br><br><br>
+        <p class="paragraph">Read more blogs available now. Please keep intouch and visit the site again. 
+        You can <a href="Subscribe.php">Subscribe to SMC Newslatters.</a>
+    </div>
     <!-- Alert -->
     <div class="login-signup-alert">
         <span class="closeButton" onclick="this.parentElement.style.display = 'none';">&times;</span>
