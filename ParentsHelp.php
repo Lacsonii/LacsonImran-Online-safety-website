@@ -31,7 +31,7 @@
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
-                <li><a href = "LegAndGuid.php">Guidlines</a></li>
+                <li><a href = "LegAndGuid.php">Guidance</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
                 <li><a href = "review.php">Reviews</a></li>
@@ -63,7 +63,7 @@
 <!-- pictures -->
 <div class="image-help">
 <div class="p">
-    <img src = "images/steps.png" name = "talk" alt = "talk-Image">
+    <img src = "images/steps.png" name = "talk" alt = "talk-Image" clase = "image-steps">
         <h1>Steps to Increase Internet Safety for Children</h1>
         <ul>
             <li>Set Parental controls</li>
@@ -88,7 +88,7 @@
 
     </div>
     <div class="p">
-        <img src = "images/ways.png" name = "talk" alt = "talk-Image">
+        <img src = "images/ways.png" name = "talk" alt = "talk-Image" clase = "image-steps">
         <h1>Tips for talking to your child about Online Safety</h1>
         <ul>
             <li>Tell childre to be cautious</li>
@@ -101,7 +101,7 @@
         </ul>
     </div>
     <div class="p">
-    <img src = "images/tips.png" name = "talk" alt = "talk-Image">
+    <img src = "images/tips.png" name = "talk" alt = "talk-Image" clase = "image-steps">
     <h1>The Biggest internet Safety Risks for kids</h1>
     <ul>
         <li>Cyber Predators</li>
