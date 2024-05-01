@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 $host = "localhost";
@@ -24,7 +23,7 @@ if (isset($_SESSION['locked']) && $_SESSION['locked'] > time() - 600) {
 }
 
 if (isset($_POST['username'], $_POST['password'])) {
-    if ($stmt = $conn -> prepare('SELECT TypeId, userpassword FROM webusers WHERE username = ?')) {
+    if ($stmt = $conn->prepare('SELECT TypeId, userpassword FROM webusers WHERE username = ?')) {
         $stmt->bind_param('s', $_POST['username']);
         $stmt->execute();
 
@@ -58,13 +57,13 @@ if (isset($_POST['username'], $_POST['password'])) {
                     exit;
                 } else {
                     $_SESSION['error'] = "Incorrect username and/or password!";
-                    header("Location: LogIn.php");
+                    header("error");
                     exit;
                 }
             }
         } else {
             $_SESSION['error'] = "Incorrect username and/or password!";
-            header("Location: LogIn.php");
+            header("error");
             exit;
         }
     }
