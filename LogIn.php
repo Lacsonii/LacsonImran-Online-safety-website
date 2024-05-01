@@ -31,7 +31,7 @@
                 <li><a href = "Information.php">Information</a></li>
                 <li><a href = "SocialMedia.php">Apps</a></li>
                 <li><a href = "Livestreaming.php">Live</a></li>
-                <li><a href = "LegAndGuid.php">Guidlines</a></li>
+                <li><a href = "LegAndGuid.php">Guidance</a></li>
                 <li><a href = "ParentsHelp.php">Help</a></li>
                 <li><a href = "contact.php">Contacts</a></li>
                 <li><a href = "review.php">Reviews</a></li>
@@ -60,35 +60,37 @@
 </nav>
 <!-- === end navigation-bar text === --> 
 
+
 <!-- === Log In form === -->
-<form action = "authentication.php" method ="POST" class="form-login">
-    <div class = "LogIn-form">
-      <h1>Sign In</h1>
-      <?php if(isset($_SESSION["error"])) {?>
+<form action="authentication.php" method="POST" class="form-login">
+    <div class="LogIn-form">
+        <h1>Sign In</h1>
+        <?php if(isset($_SESSION["error"])): ?>
             <p style="color: white;"><?= $_SESSION["error"]; ?></p>
-        <?php unset($_SESSION["error"]); } ?>
+            <?php unset($_SESSION["error"]); ?>
+        <?php endif; ?>
 
-        <div class = "LogIn-element">
-            <lable for = "Username">Username</lable>
-            <input type = "text" id = "email" placeholder = "username or email" name = "Username" required>
-        </div>
-
-        <div class = "LogIn-element">
-            <lable for = "password">Password</lable>
-            <input type = "password" id = "password" placeholder = "password" name = "Password" required>
-            <input type="checkbox" onclick="Function()">Show Password
+        <div class="LogIn-element">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username or email" name="username" required>
         </div>
 
-        <div class = "LogIn-element">
-            <input type = "checkbox" id = "remember.me">
-            <lable for = "remember-me">Remember Me</lable>
+        <div class="LogIn-element">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password" required>
+            <input type="checkbox" onclick="Function()"> Show Password
         </div>
-        <div class = "LogIn-element">
-            <button type = "submit" class="signup"><a href="Admin.php">Sign In</a></button>
-           <button class="signup"><a href="SignUp.php">Sign Up</a></button>
+
+        <div class="LogIn-element">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember Me</label>
         </div>
-        <div class = "LogIn-element">
-            <a href = "#">Forgot password?</a>
+        <div class="LogIn-element">
+            <button type="submit" class="signup">Sign In</button>
+            <button class="signup"><a href="SignUp.php">Sign Up</a></button>
+        </div>
+        <div class="LogIn-element">
+            <a href="#">Forgot password?</a>
         </div>
     </div>
     <div class="login-links">
